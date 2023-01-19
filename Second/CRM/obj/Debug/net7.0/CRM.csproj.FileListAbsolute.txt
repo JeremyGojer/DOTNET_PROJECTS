@@ -1,0 +1,30 @@
+C:\Users\jerem\Desktop\DOTNET\Second\CRM\bin\Debug\net7.0\CRM.deps.json
+C:\Users\jerem\Desktop\DOTNET\Second\CRM\bin\Debug\net7.0\CRM.dll
+C:\Users\jerem\Desktop\DOTNET\Second\CRM\bin\Debug\net7.0\CRM.pdb
+C:\Users\jerem\Desktop\DOTNET\Second\CRM\obj\Debug\net7.0\CRM.csproj.AssemblyReference.cache
+C:\Users\jerem\Desktop\DOTNET\Second\CRM\obj\Debug\net7.0\CRM.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jerem\Desktop\DOTNET\Second\CRM\obj\Debug\net7.0\CRM.AssemblyInfoInputs.cache
+C:\Users\jerem\Desktop\DOTNET\Second\CRM\obj\Debug\net7.0\CRM.AssemblyInfo.cs
+C:\Users\jerem\Desktop\DOTNET\Second\CRM\obj\Debug\net7.0\CRM.csproj.CoreCompileInputs.cache
+C:\Users\jerem\Desktop\DOTNET\Second\CRM\obj\Debug\net7.0\CRM.dll
+C:\Users\jerem\Desktop\DOTNET\Second\CRM\obj\Debug\net7.0\refint\CRM.dll
+C:\Users\jerem\Desktop\DOTNET\Second\CRM\obj\Debug\net7.0\CRM.pdb
+C:\Users\jerem\Desktop\DOTNET\Second\CRM\obj\Debug\net7.0\ref\CRM.dll
+C:\Users\jerem\Desktop\DOTNET\Second\CRM\bin\Debug\net7.0\OrderProcessing.dll
+C:\Users\jerem\Desktop\DOTNET\Second\CRM\bin\Debug\net7.0\OrderProcessing.pdb
+C:\Users\jerem\Desktop\DOTNET\Second\CRM\obj\Debug\net7.0\CRM.csproj.CopyComplete
+C:\Users\IET\Desktop\New folder (2)\Second\CRM\bin\Debug\net7.0\CRM.deps.json
+C:\Users\IET\Desktop\New folder (2)\Second\CRM\bin\Debug\net7.0\CRM.dll
+C:\Users\IET\Desktop\New folder (2)\Second\CRM\bin\Debug\net7.0\CRM.pdb
+C:\Users\IET\Desktop\New folder (2)\Second\CRM\bin\Debug\net7.0\OrderProcessing.dll
+C:\Users\IET\Desktop\New folder (2)\Second\CRM\bin\Debug\net7.0\OrderProcessing.pdb
+C:\Users\IET\Desktop\New folder (2)\Second\CRM\obj\Debug\net7.0\CRM.csproj.AssemblyReference.cache
+C:\Users\IET\Desktop\New folder (2)\Second\CRM\obj\Debug\net7.0\CRM.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\IET\Desktop\New folder (2)\Second\CRM\obj\Debug\net7.0\CRM.AssemblyInfoInputs.cache
+C:\Users\IET\Desktop\New folder (2)\Second\CRM\obj\Debug\net7.0\CRM.AssemblyInfo.cs
+C:\Users\IET\Desktop\New folder (2)\Second\CRM\obj\Debug\net7.0\CRM.csproj.CoreCompileInputs.cache
+C:\Users\IET\Desktop\New folder (2)\Second\CRM\obj\Debug\net7.0\CRM.csproj.CopyComplete
+C:\Users\IET\Desktop\New folder (2)\Second\CRM\obj\Debug\net7.0\CRM.dll
+C:\Users\IET\Desktop\New folder (2)\Second\CRM\obj\Debug\net7.0\refint\CRM.dll
+C:\Users\IET\Desktop\New folder (2)\Second\CRM\obj\Debug\net7.0\CRM.pdb
+C:\Users\IET\Desktop\New folder (2)\Second\CRM\obj\Debug\net7.0\ref\CRM.dll

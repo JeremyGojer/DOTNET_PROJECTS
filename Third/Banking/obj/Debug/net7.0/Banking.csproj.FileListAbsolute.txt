@@ -1,0 +1,15 @@
+C:\Users\jerem\Desktop\DOTNET\Third\Banking\bin\Debug\net7.0\Banking.deps.json
+C:\Users\jerem\Desktop\DOTNET\Third\Banking\bin\Debug\net7.0\Banking.dll
+C:\Users\jerem\Desktop\DOTNET\Third\Banking\bin\Debug\net7.0\Banking.pdb
+C:\Users\jerem\Desktop\DOTNET\Third\Banking\obj\Debug\net7.0\Banking.csproj.AssemblyReference.cache
+C:\Users\jerem\Desktop\DOTNET\Third\Banking\obj\Debug\net7.0\Banking.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jerem\Desktop\DOTNET\Third\Banking\obj\Debug\net7.0\Banking.AssemblyInfoInputs.cache
+C:\Users\jerem\Desktop\DOTNET\Third\Banking\obj\Debug\net7.0\Banking.AssemblyInfo.cs
+C:\Users\jerem\Desktop\DOTNET\Third\Banking\obj\Debug\net7.0\Banking.csproj.CoreCompileInputs.cache
+C:\Users\jerem\Desktop\DOTNET\Third\Banking\obj\Debug\net7.0\Banking.dll
+C:\Users\jerem\Desktop\DOTNET\Third\Banking\obj\Debug\net7.0\refint\Banking.dll
+C:\Users\jerem\Desktop\DOTNET\Third\Banking\obj\Debug\net7.0\Banking.pdb
+C:\Users\jerem\Desktop\DOTNET\Third\Banking\obj\Debug\net7.0\ref\Banking.dll
+C:\Users\jerem\Desktop\DOTNET\Third\Banking\bin\Debug\net7.0\Utility.dll
+C:\Users\jerem\Desktop\DOTNET\Third\Banking\bin\Debug\net7.0\Utility.pdb
+C:\Users\jerem\Desktop\DOTNET\Third\Banking\obj\Debug\net7.0\Banking.csproj.CopyComplete

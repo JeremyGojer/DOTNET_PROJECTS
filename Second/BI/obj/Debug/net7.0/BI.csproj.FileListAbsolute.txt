@@ -1,0 +1,24 @@
+C:\Users\jerem\Desktop\DOTNET\Second\BI\bin\Debug\net7.0\BI.deps.json
+C:\Users\jerem\Desktop\DOTNET\Second\BI\bin\Debug\net7.0\BI.dll
+C:\Users\jerem\Desktop\DOTNET\Second\BI\bin\Debug\net7.0\BI.pdb
+C:\Users\jerem\Desktop\DOTNET\Second\BI\obj\Debug\net7.0\BI.csproj.AssemblyReference.cache
+C:\Users\jerem\Desktop\DOTNET\Second\BI\obj\Debug\net7.0\BI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jerem\Desktop\DOTNET\Second\BI\obj\Debug\net7.0\BI.AssemblyInfoInputs.cache
+C:\Users\jerem\Desktop\DOTNET\Second\BI\obj\Debug\net7.0\BI.AssemblyInfo.cs
+C:\Users\jerem\Desktop\DOTNET\Second\BI\obj\Debug\net7.0\BI.csproj.CoreCompileInputs.cache
+C:\Users\jerem\Desktop\DOTNET\Second\BI\obj\Debug\net7.0\BI.dll
+C:\Users\jerem\Desktop\DOTNET\Second\BI\obj\Debug\net7.0\refint\BI.dll
+C:\Users\jerem\Desktop\DOTNET\Second\BI\obj\Debug\net7.0\BI.pdb
+C:\Users\jerem\Desktop\DOTNET\Second\BI\obj\Debug\net7.0\ref\BI.dll
+C:\Users\IET\Desktop\New folder (2)\Second\BI\bin\Debug\net7.0\BI.deps.json
+C:\Users\IET\Desktop\New folder (2)\Second\BI\bin\Debug\net7.0\BI.dll
+C:\Users\IET\Desktop\New folder (2)\Second\BI\bin\Debug\net7.0\BI.pdb
+C:\Users\IET\Desktop\New folder (2)\Second\BI\obj\Debug\net7.0\BI.csproj.AssemblyReference.cache
+C:\Users\IET\Desktop\New folder (2)\Second\BI\obj\Debug\net7.0\BI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\IET\Desktop\New folder (2)\Second\BI\obj\Debug\net7.0\BI.AssemblyInfoInputs.cache
+C:\Users\IET\Desktop\New folder (2)\Second\BI\obj\Debug\net7.0\BI.AssemblyInfo.cs
+C:\Users\IET\Desktop\New folder (2)\Second\BI\obj\Debug\net7.0\BI.csproj.CoreCompileInputs.cache
+C:\Users\IET\Desktop\New folder (2)\Second\BI\obj\Debug\net7.0\BI.dll
+C:\Users\IET\Desktop\New folder (2)\Second\BI\obj\Debug\net7.0\refint\BI.dll
+C:\Users\IET\Desktop\New folder (2)\Second\BI\obj\Debug\net7.0\BI.pdb
+C:\Users\IET\Desktop\New folder (2)\Second\BI\obj\Debug\net7.0\ref\BI.dll

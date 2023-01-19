@@ -1,0 +1,29 @@
+C:\Users\jerem\Desktop\DOTNET\Second\Membership\bin\Debug\net7.0\Membership.deps.json
+C:\Users\jerem\Desktop\DOTNET\Second\Membership\bin\Debug\net7.0\Membership.dll
+C:\Users\jerem\Desktop\DOTNET\Second\Membership\bin\Debug\net7.0\Membership.pdb
+C:\Users\jerem\Desktop\DOTNET\Second\Membership\obj\Debug\net7.0\Membership.csproj.AssemblyReference.cache
+C:\Users\jerem\Desktop\DOTNET\Second\Membership\obj\Debug\net7.0\Membership.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jerem\Desktop\DOTNET\Second\Membership\obj\Debug\net7.0\Membership.AssemblyInfoInputs.cache
+C:\Users\jerem\Desktop\DOTNET\Second\Membership\obj\Debug\net7.0\Membership.AssemblyInfo.cs
+C:\Users\jerem\Desktop\DOTNET\Second\Membership\obj\Debug\net7.0\Membership.csproj.CoreCompileInputs.cache
+C:\Users\jerem\Desktop\DOTNET\Second\Membership\obj\Debug\net7.0\Membership.dll
+C:\Users\jerem\Desktop\DOTNET\Second\Membership\obj\Debug\net7.0\refint\Membership.dll
+C:\Users\jerem\Desktop\DOTNET\Second\Membership\obj\Debug\net7.0\Membership.pdb
+C:\Users\jerem\Desktop\DOTNET\Second\Membership\obj\Debug\net7.0\ref\Membership.dll
+C:\Users\IET\Desktop\New folder (2)\Second\Membership\bin\Debug\net7.0\Membership.deps.json
+C:\Users\IET\Desktop\New folder (2)\Second\Membership\bin\Debug\net7.0\Membership.dll
+C:\Users\IET\Desktop\New folder (2)\Second\Membership\bin\Debug\net7.0\Membership.pdb
+C:\Users\IET\Desktop\New folder (2)\Second\Membership\obj\Debug\net7.0\Membership.csproj.AssemblyReference.cache
+C:\Users\IET\Desktop\New folder (2)\Second\Membership\obj\Debug\net7.0\Membership.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\IET\Desktop\New folder (2)\Second\Membership\obj\Debug\net7.0\Membership.AssemblyInfoInputs.cache
+C:\Users\IET\Desktop\New folder (2)\Second\Membership\obj\Debug\net7.0\Membership.AssemblyInfo.cs
+C:\Users\IET\Desktop\New folder (2)\Second\Membership\obj\Debug\net7.0\Membership.csproj.CoreCompileInputs.cache
+C:\Users\IET\Desktop\New folder (2)\Second\Membership\obj\Debug\net7.0\Membership.dll
+C:\Users\IET\Desktop\New folder (2)\Second\Membership\obj\Debug\net7.0\refint\Membership.dll
+C:\Users\IET\Desktop\New folder (2)\Second\Membership\obj\Debug\net7.0\Membership.pdb
+C:\Users\IET\Desktop\New folder (2)\Second\Membership\obj\Debug\net7.0\ref\Membership.dll
+C:\Users\IET\Desktop\New folder (2)\Second\Membership\bin\Debug\net7.0\CRM.dll
+C:\Users\IET\Desktop\New folder (2)\Second\Membership\bin\Debug\net7.0\OrderProcessing.dll
+C:\Users\IET\Desktop\New folder (2)\Second\Membership\bin\Debug\net7.0\CRM.pdb
+C:\Users\IET\Desktop\New folder (2)\Second\Membership\bin\Debug\net7.0\OrderProcessing.pdb
+C:\Users\IET\Desktop\New folder (2)\Second\Membership\obj\Debug\net7.0\Membership.csproj.CopyComplete

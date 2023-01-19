@@ -1,0 +1,49 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "Membership/1.0.0": {
+        "dependencies": {
+          "CRM": "1.0.0"
+        },
+        "runtime": {
+          "Membership.dll": {}
+        }
+      },
+      "CRM/1.0.0": {
+        "dependencies": {
+          "OrderProcessing": "1.0.0"
+        },
+        "runtime": {
+          "CRM.dll": {}
+        }
+      },
+      "OrderProcessing/1.0.0": {
+        "runtime": {
+          "OrderProcessing.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Membership/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CRM/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "OrderProcessing/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

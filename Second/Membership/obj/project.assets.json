@@ -1,0 +1,107 @@
+{
+  "version": 3,
+  "targets": {
+    "net7.0": {
+      "CRM/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "OrderProcessing": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/CRM.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CRM.dll": {}
+        }
+      },
+      "OrderProcessing/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/OrderProcessing.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/OrderProcessing.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CRM/1.0.0": {
+      "type": "project",
+      "path": "../CRM/CRM.csproj",
+      "msbuildProject": "../CRM/CRM.csproj"
+    },
+    "OrderProcessing/1.0.0": {
+      "type": "project",
+      "path": "../OrderProcessing/OrderProcessing.csproj",
+      "msbuildProject": "../OrderProcessing/OrderProcessing.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net7.0": [
+      "CRM >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\IET\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\IET\\Desktop\\New folder (2)\\Second\\Membership\\Membership.csproj",
+      "projectName": "Membership",
+      "projectPath": "C:\\Users\\IET\\Desktop\\New folder (2)\\Second\\Membership\\Membership.csproj",
+      "packagesPath": "C:\\Users\\IET\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\IET\\Desktop\\New folder (2)\\Second\\Membership\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\IET\\AppData\\Roaming\\NuGet\\NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net7.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "projectReferences": {
+            "C:\\Users\\IET\\Desktop\\New folder (2)\\Second\\CRM\\CRM.csproj": {
+              "projectPath": "C:\\Users\\IET\\Desktop\\New folder (2)\\Second\\CRM\\CRM.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net7.0": {
+        "targetAlias": "net7.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

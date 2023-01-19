@@ -1,0 +1,24 @@
+C:\Users\jerem\Desktop\DOTNET\Second\Catalog\bin\Debug\net7.0\Catalog.deps.json
+C:\Users\jerem\Desktop\DOTNET\Second\Catalog\bin\Debug\net7.0\Catalog.dll
+C:\Users\jerem\Desktop\DOTNET\Second\Catalog\bin\Debug\net7.0\Catalog.pdb
+C:\Users\jerem\Desktop\DOTNET\Second\Catalog\obj\Debug\net7.0\Catalog.csproj.AssemblyReference.cache
+C:\Users\jerem\Desktop\DOTNET\Second\Catalog\obj\Debug\net7.0\Catalog.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jerem\Desktop\DOTNET\Second\Catalog\obj\Debug\net7.0\Catalog.AssemblyInfoInputs.cache
+C:\Users\jerem\Desktop\DOTNET\Second\Catalog\obj\Debug\net7.0\Catalog.AssemblyInfo.cs
+C:\Users\jerem\Desktop\DOTNET\Second\Catalog\obj\Debug\net7.0\Catalog.csproj.CoreCompileInputs.cache
+C:\Users\jerem\Desktop\DOTNET\Second\Catalog\obj\Debug\net7.0\Catalog.dll
+C:\Users\jerem\Desktop\DOTNET\Second\Catalog\obj\Debug\net7.0\refint\Catalog.dll
+C:\Users\jerem\Desktop\DOTNET\Second\Catalog\obj\Debug\net7.0\Catalog.pdb
+C:\Users\jerem\Desktop\DOTNET\Second\Catalog\obj\Debug\net7.0\ref\Catalog.dll
+C:\Users\IET\Desktop\New folder (2)\Second\Catalog\bin\Debug\net7.0\Catalog.deps.json
+C:\Users\IET\Desktop\New folder (2)\Second\Catalog\bin\Debug\net7.0\Catalog.dll
+C:\Users\IET\Desktop\New folder (2)\Second\Catalog\bin\Debug\net7.0\Catalog.pdb
+C:\Users\IET\Desktop\New folder (2)\Second\Catalog\obj\Debug\net7.0\Catalog.csproj.AssemblyReference.cache
+C:\Users\IET\Desktop\New folder (2)\Second\Catalog\obj\Debug\net7.0\Catalog.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\IET\Desktop\New folder (2)\Second\Catalog\obj\Debug\net7.0\Catalog.AssemblyInfoInputs.cache
+C:\Users\IET\Desktop\New folder (2)\Second\Catalog\obj\Debug\net7.0\Catalog.AssemblyInfo.cs
+C:\Users\IET\Desktop\New folder (2)\Second\Catalog\obj\Debug\net7.0\Catalog.csproj.CoreCompileInputs.cache
+C:\Users\IET\Desktop\New folder (2)\Second\Catalog\obj\Debug\net7.0\Catalog.dll
+C:\Users\IET\Desktop\New folder (2)\Second\Catalog\obj\Debug\net7.0\refint\Catalog.dll
+C:\Users\IET\Desktop\New folder (2)\Second\Catalog\obj\Debug\net7.0\Catalog.pdb
+C:\Users\IET\Desktop\New folder (2)\Second\Catalog\obj\Debug\net7.0\ref\Catalog.dll

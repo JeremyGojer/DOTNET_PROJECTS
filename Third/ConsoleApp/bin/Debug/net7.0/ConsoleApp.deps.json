@@ -1,0 +1,64 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "ConsoleApp/1.0.0": {
+        "dependencies": {
+          "Banking": "1.0.0",
+          "CRM": "1.0.0",
+          "Utility": "1.0.0"
+        },
+        "runtime": {
+          "ConsoleApp.dll": {}
+        }
+      },
+      "Banking/1.0.0": {
+        "dependencies": {
+          "Utility": "1.0.0"
+        },
+        "runtime": {
+          "Banking.dll": {}
+        }
+      },
+      "CRM/1.0.0": {
+        "dependencies": {
+          "Banking": "1.0.0"
+        },
+        "runtime": {
+          "CRM.dll": {}
+        }
+      },
+      "Utility/1.0.0": {
+        "runtime": {
+          "Utility.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ConsoleApp/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Banking/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CRM/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Utility/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

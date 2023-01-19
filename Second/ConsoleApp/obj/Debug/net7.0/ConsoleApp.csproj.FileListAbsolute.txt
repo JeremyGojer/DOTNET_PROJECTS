@@ -1,0 +1,52 @@
+C:\Users\jerem\Desktop\DOTNET\Second\ConsoleApp\bin\Debug\net7.0\ConsoleApp.exe
+C:\Users\jerem\Desktop\DOTNET\Second\ConsoleApp\bin\Debug\net7.0\ConsoleApp.deps.json
+C:\Users\jerem\Desktop\DOTNET\Second\ConsoleApp\bin\Debug\net7.0\ConsoleApp.runtimeconfig.json
+C:\Users\jerem\Desktop\DOTNET\Second\ConsoleApp\bin\Debug\net7.0\ConsoleApp.dll
+C:\Users\jerem\Desktop\DOTNET\Second\ConsoleApp\bin\Debug\net7.0\ConsoleApp.pdb
+C:\Users\jerem\Desktop\DOTNET\Second\ConsoleApp\bin\Debug\net7.0\Catalog.dll
+C:\Users\jerem\Desktop\DOTNET\Second\ConsoleApp\bin\Debug\net7.0\CRM.dll
+C:\Users\jerem\Desktop\DOTNET\Second\ConsoleApp\bin\Debug\net7.0\Membership.dll
+C:\Users\jerem\Desktop\DOTNET\Second\ConsoleApp\bin\Debug\net7.0\OrderProcessing.dll
+C:\Users\jerem\Desktop\DOTNET\Second\ConsoleApp\bin\Debug\net7.0\Catalog.pdb
+C:\Users\jerem\Desktop\DOTNET\Second\ConsoleApp\bin\Debug\net7.0\OrderProcessing.pdb
+C:\Users\jerem\Desktop\DOTNET\Second\ConsoleApp\bin\Debug\net7.0\CRM.pdb
+C:\Users\jerem\Desktop\DOTNET\Second\ConsoleApp\bin\Debug\net7.0\Membership.pdb
+C:\Users\jerem\Desktop\DOTNET\Second\ConsoleApp\obj\Debug\net7.0\ConsoleApp.csproj.AssemblyReference.cache
+C:\Users\jerem\Desktop\DOTNET\Second\ConsoleApp\obj\Debug\net7.0\ConsoleApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jerem\Desktop\DOTNET\Second\ConsoleApp\obj\Debug\net7.0\ConsoleApp.AssemblyInfoInputs.cache
+C:\Users\jerem\Desktop\DOTNET\Second\ConsoleApp\obj\Debug\net7.0\ConsoleApp.AssemblyInfo.cs
+C:\Users\jerem\Desktop\DOTNET\Second\ConsoleApp\obj\Debug\net7.0\ConsoleApp.csproj.CoreCompileInputs.cache
+C:\Users\jerem\Desktop\DOTNET\Second\ConsoleApp\obj\Debug\net7.0\ConsoleApp.csproj.CopyComplete
+C:\Users\jerem\Desktop\DOTNET\Second\ConsoleApp\obj\Debug\net7.0\ConsoleApp.dll
+C:\Users\jerem\Desktop\DOTNET\Second\ConsoleApp\obj\Debug\net7.0\refint\ConsoleApp.dll
+C:\Users\jerem\Desktop\DOTNET\Second\ConsoleApp\obj\Debug\net7.0\ConsoleApp.pdb
+C:\Users\jerem\Desktop\DOTNET\Second\ConsoleApp\obj\Debug\net7.0\ConsoleApp.genruntimeconfig.cache
+C:\Users\jerem\Desktop\DOTNET\Second\ConsoleApp\obj\Debug\net7.0\ref\ConsoleApp.dll
+C:\Users\jerem\Desktop\DOTNET\Second\ConsoleApp\bin\Debug\net7.0\BI.dll
+C:\Users\jerem\Desktop\DOTNET\Second\ConsoleApp\bin\Debug\net7.0\BI.pdb
+C:\Users\IET\Desktop\New folder (2)\Second\ConsoleApp\bin\Debug\net7.0\ConsoleApp.exe
+C:\Users\IET\Desktop\New folder (2)\Second\ConsoleApp\bin\Debug\net7.0\ConsoleApp.deps.json
+C:\Users\IET\Desktop\New folder (2)\Second\ConsoleApp\bin\Debug\net7.0\ConsoleApp.runtimeconfig.json
+C:\Users\IET\Desktop\New folder (2)\Second\ConsoleApp\bin\Debug\net7.0\ConsoleApp.dll
+C:\Users\IET\Desktop\New folder (2)\Second\ConsoleApp\bin\Debug\net7.0\ConsoleApp.pdb
+C:\Users\IET\Desktop\New folder (2)\Second\ConsoleApp\bin\Debug\net7.0\BI.dll
+C:\Users\IET\Desktop\New folder (2)\Second\ConsoleApp\bin\Debug\net7.0\Catalog.dll
+C:\Users\IET\Desktop\New folder (2)\Second\ConsoleApp\bin\Debug\net7.0\CRM.dll
+C:\Users\IET\Desktop\New folder (2)\Second\ConsoleApp\bin\Debug\net7.0\Membership.dll
+C:\Users\IET\Desktop\New folder (2)\Second\ConsoleApp\bin\Debug\net7.0\OrderProcessing.dll
+C:\Users\IET\Desktop\New folder (2)\Second\ConsoleApp\bin\Debug\net7.0\Catalog.pdb
+C:\Users\IET\Desktop\New folder (2)\Second\ConsoleApp\bin\Debug\net7.0\OrderProcessing.pdb
+C:\Users\IET\Desktop\New folder (2)\Second\ConsoleApp\bin\Debug\net7.0\CRM.pdb
+C:\Users\IET\Desktop\New folder (2)\Second\ConsoleApp\bin\Debug\net7.0\Membership.pdb
+C:\Users\IET\Desktop\New folder (2)\Second\ConsoleApp\bin\Debug\net7.0\BI.pdb
+C:\Users\IET\Desktop\New folder (2)\Second\ConsoleApp\obj\Debug\net7.0\ConsoleApp.csproj.AssemblyReference.cache
+C:\Users\IET\Desktop\New folder (2)\Second\ConsoleApp\obj\Debug\net7.0\ConsoleApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\IET\Desktop\New folder (2)\Second\ConsoleApp\obj\Debug\net7.0\ConsoleApp.AssemblyInfoInputs.cache
+C:\Users\IET\Desktop\New folder (2)\Second\ConsoleApp\obj\Debug\net7.0\ConsoleApp.AssemblyInfo.cs
+C:\Users\IET\Desktop\New folder (2)\Second\ConsoleApp\obj\Debug\net7.0\ConsoleApp.csproj.CoreCompileInputs.cache
+C:\Users\IET\Desktop\New folder (2)\Second\ConsoleApp\obj\Debug\net7.0\ConsoleApp.csproj.CopyComplete
+C:\Users\IET\Desktop\New folder (2)\Second\ConsoleApp\obj\Debug\net7.0\ConsoleApp.dll
+C:\Users\IET\Desktop\New folder (2)\Second\ConsoleApp\obj\Debug\net7.0\refint\ConsoleApp.dll
+C:\Users\IET\Desktop\New folder (2)\Second\ConsoleApp\obj\Debug\net7.0\ConsoleApp.pdb
+C:\Users\IET\Desktop\New folder (2)\Second\ConsoleApp\obj\Debug\net7.0\ConsoleApp.genruntimeconfig.cache
+C:\Users\IET\Desktop\New folder (2)\Second\ConsoleApp\obj\Debug\net7.0\ref\ConsoleApp.dll
