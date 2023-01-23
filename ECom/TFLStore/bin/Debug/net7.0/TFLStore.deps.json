@@ -1,0 +1,49 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "TFLStore/1.0.0": {
+        "dependencies": {
+          "SAL": "1.0.0"
+        },
+        "runtime": {
+          "TFLStore.dll": {}
+        }
+      },
+      "BOL/1.0.0": {
+        "runtime": {
+          "BOL.dll": {}
+        }
+      },
+      "SAL/1.0.0": {
+        "dependencies": {
+          "BOL": "1.0.0"
+        },
+        "runtime": {
+          "SAL.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TFLStore/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BOL/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SAL/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

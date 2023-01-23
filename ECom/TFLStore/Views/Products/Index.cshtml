@@ -1,0 +1,20 @@
+﻿@using SAL
+@{
+    ViewData["Title"] = "Home Page";
+    IProductServices productServices = new ProductServices();
+    var products = productServices.DisplayAllProducts();
+}
+
+<div>
+    <div class="text-center">
+        <h1 class="display-4">Products</h1>
+    </div>
+    <hr/>
+    <ul class="text-left">
+        @foreach (var product in products)
+        {
+            <li><a href="http://www.google.com/search?q=@product.Name&source=lnms&tbm=isch&sa=X&ved=2ahUKEwiK_Mmp09_8AhWVR3wKHXF-DlwQ_AUoAXoECAEQAw&biw=1024&bih=657&dpr=1">@product.Name</a></li>    
+        }
+    </ul>
+    <hr/>
+</div>

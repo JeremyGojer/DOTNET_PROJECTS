@@ -1,0 +1,110 @@
+{
+  "version": 3,
+  "targets": {
+    "net7.0": {
+      "BOL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/BOL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BOL.dll": {}
+        }
+      },
+      "SAL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "BOL": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/SAL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SAL.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BOL/1.0.0": {
+      "type": "project",
+      "path": "../BOL/BOL.csproj",
+      "msbuildProject": "../BOL/BOL.csproj"
+    },
+    "SAL/1.0.0": {
+      "type": "project",
+      "path": "../SAL/SAL.csproj",
+      "msbuildProject": "../SAL/SAL.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net7.0": [
+      "SAL >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\IET\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\IET\\Desktop\\Day6\\ECom\\TFLStore\\TFLStore.csproj",
+      "projectName": "TFLStore",
+      "projectPath": "C:\\Users\\IET\\Desktop\\Day6\\ECom\\TFLStore\\TFLStore.csproj",
+      "packagesPath": "C:\\Users\\IET\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\IET\\Desktop\\Day6\\ECom\\TFLStore\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\IET\\AppData\\Roaming\\NuGet\\NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net7.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "projectReferences": {
+            "C:\\Users\\IET\\Desktop\\Day6\\ECom\\SAL\\SAL.csproj": {
+              "projectPath": "C:\\Users\\IET\\Desktop\\Day6\\ECom\\SAL\\SAL.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net7.0": {
+        "targetAlias": "net7.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
