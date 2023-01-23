@@ -1,14 +1,14 @@
-﻿using System.Diagnostics;
+using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using MyECommerceApp.Models;
 
 namespace MyECommerceApp.Controllers;
 
-public class HomeController : Controller
+public class ProductsController : Controller
 {
-    private readonly ILogger<HomeController> _logger;
+    private readonly ILogger<ProductsController> _logger;
 
-    public HomeController(ILogger<HomeController> logger)
+    public ProductsController(ILogger<ProductsController> logger)
     {
         _logger = logger;
     }
@@ -18,23 +18,19 @@ public class HomeController : Controller
         return View();
     }
 
-    public IActionResult Privacy()
+    public IActionResult Catalog()
     {
         return View();
     }
-    //If success the post request send it ahead else reloads the same page
-    public IActionResult Login()
+    public IActionResult Result(string search)
     {
-        return View();
-    }
-
-    [HttpPost]
-    public IActionResult Login(string email, string password)
-    {
-        if(email=="gojerjeremy@gmail.com" && password=="Jeremy")
-        {
-            return RedirectToAction("Index","Products");
+        if(search=="Electronics"){
+            return RedirectToAction("Electronics","Products");
         }
+        return View();
+    }
+    public IActionResult Electronics()
+    {
         return View();
     }
 
