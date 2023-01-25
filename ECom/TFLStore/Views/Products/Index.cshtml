@@ -12,10 +12,10 @@
         
     </div>
     <hr/>
-    <table border='1'>
+    <table border='2'>
         @foreach (var product in products)
         {
-            <tr><td><a href="Products/Details/@product.Id">@product.Name</a></td><td><a href="http://www.google.com/search?q=@product.Name&source=lnms&tbm=isch&sa=X&ved=2ahUKEwiK_Mmp09_8AhWVR3wKHXF-DlwQ_AUoAXoECAEQAw&biw=1024&bih=657&dpr=1">Google</a><td></tr>    
+            <tr><td><img src=@product.ImageUrl width=60 height=60></td><td><a href="Products/Details/@product.Id">@product.Name</a></td><td><a href="http://www.google.com/search?q=@product.Name&source=lnms&tbm=isch&sa=X&ved=2ahUKEwiK_Mmp09_8AhWVR3wKHXF-DlwQ_AUoAXoECAEQAw&biw=1024&bih=657&dpr=1">Google</a><td></tr>    
         }
     </table>
     <hr/>

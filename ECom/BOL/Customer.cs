@@ -1,13 +1,13 @@
 namespace BOL;
 
-public class User{
+public class Customer{
     public string FirstName{get;set;}
     public string LastName{get;set;}
     public string Email{get;set;}
     public string Password{get;set;}
     public string ContactNumber{get;set;}
 
-    public User(string firstName, string lastName, string email, string password, string contactNumber)
+    public Customer(string firstName, string lastName, string email, string password, string contactNumber)
     {
         FirstName = firstName;
         LastName = lastName;

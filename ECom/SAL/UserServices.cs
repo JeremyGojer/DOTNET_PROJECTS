@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using BOL;
 
 public class UserServices{
-    private static List<User> userList = new List<User>();
+    private static List<Customer> userList = new List<Customer>();
     
     public bool Authenticate(string email,string password){
         foreach(var user in userList){
@@ -22,7 +22,7 @@ public class UserServices{
             }
         }
         // Console.WriteLine("Added New User");
-        userList.Add(new User(firstName,lastName,email,password,contactNumber));
+        userList.Add(new Customer(firstName,lastName,email,password,contactNumber));
         
         // foreach(var user in userList){
         //     Console.WriteLine(user);
@@ -30,7 +30,7 @@ public class UserServices{
         return true;
     }
 
-    public List<User> DisplayAllUsers(){
+    public List<Customer> DisplayAllUsers(){
         return userList;
     }
 }

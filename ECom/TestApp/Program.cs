@@ -3,7 +3,7 @@ using BOL;
 using DAL;
 Console.WriteLine("Hello, World!");
 
-ProductIOManager productIOManager = new ProductIOManager();
+CustomerIOManager productIOManager = new CustomerIOManager();
 // string path = @"C:\Users\iet\Desktop\reopo\DOTNET_PROJECTS\ECom\TFLStore\wwwroot\files\Products.json";
 // productIOManager.Load(path);
 // productIOManager.AddProduct(new Product("NAME", "DESCRIPTION", 90, 90));
