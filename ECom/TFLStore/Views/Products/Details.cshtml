@@ -1,0 +1,41 @@
+@using BOL
+@{
+    ViewData["Title"] = "Home Page";
+    var product = ViewData["productDetails"] as Product;
+}
+<div>
+    <div style="display:inline-block">
+        @{
+        string imgstr = product.ImageUrl;
+            if(imgstr==null){
+            imgstr = "/images/" + product.Name + ".jpg";
+            }
+            <img src=@imgstr width=400 height=400>
+        }
+    </div>
+    <div style="display:inline-block; margin:10mm">
+        <form>
+            <table>
+
+                <tr>
+                    <td>Name</td>
+                    <td>@product.Name</td>
+                </tr>
+                <tr></tr>
+                <td>Description</td>
+                <td>@product.Description</td>
+                </tr>
+                <tr></tr>
+                <td>UnitPrice</td>
+                <td>@product.UnitPrice</td>
+                </tr>
+                <tr></tr>
+                <td>Quantity</td>
+                <td>@product.Quantity</td>
+                </tr>
+                <tr><td><button type="submit" class="btn btn-success" id="ToCart" name="ToCart">Add to Cart</button></td></tr>
+
+            </table>
+        </form>
+    </div>
+</div>

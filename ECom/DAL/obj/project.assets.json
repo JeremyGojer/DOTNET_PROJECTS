@@ -1,26 +1,45 @@
 {
   "version": 3,
   "targets": {
-    "net7.0": {}
+    "net7.0": {
+      "BOL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/BOL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BOL.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "BOL/1.0.0": {
+      "type": "project",
+      "path": "../BOL/BOL.csproj",
+      "msbuildProject": "../BOL/BOL.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net7.0": []
+    "net7.0": [
+      "BOL >= 1.0.0"
+    ]
   },
   "packageFolders": {
-    "C:\\Users\\IET\\.nuget\\packages\\": {}
+    "C:\\Users\\iet\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\IET\\Desktop\\Day6\\ECom\\DAL\\DAL.csproj",
+      "projectUniqueName": "C:\\Users\\iet\\Desktop\\reopo\\DOTNET_PROJECTS\\ECom\\DAL\\DAL.csproj",
       "projectName": "DAL",
-      "projectPath": "C:\\Users\\IET\\Desktop\\Day6\\ECom\\DAL\\DAL.csproj",
-      "packagesPath": "C:\\Users\\IET\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\IET\\Desktop\\Day6\\ECom\\DAL\\obj\\",
+      "projectPath": "C:\\Users\\iet\\Desktop\\reopo\\DOTNET_PROJECTS\\ECom\\DAL\\DAL.csproj",
+      "packagesPath": "C:\\Users\\iet\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\iet\\Desktop\\reopo\\DOTNET_PROJECTS\\ECom\\DAL\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\IET\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\iet\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
@@ -31,7 +50,11 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\iet\\Desktop\\reopo\\DOTNET_PROJECTS\\ECom\\BOL\\BOL.csproj": {
+              "projectPath": "C:\\Users\\iet\\Desktop\\reopo\\DOTNET_PROJECTS\\ECom\\BOL\\BOL.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

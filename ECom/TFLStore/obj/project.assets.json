@@ -2,6 +2,20 @@
   "version": 3,
   "targets": {
     "net7.0": {
+      "BLL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "BOL": "1.0.0",
+          "DAL": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/BLL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BLL.dll": {}
+        }
+      },
       "BOL/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
@@ -12,10 +26,24 @@
           "bin/placeholder/BOL.dll": {}
         }
       },
+      "DAL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "BOL": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/DAL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DAL.dll": {}
+        }
+      },
       "SAL/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
+          "BLL": "1.0.0",
           "BOL": "1.0.0"
         },
         "compile": {
@@ -28,10 +56,20 @@
     }
   },
   "libraries": {
+    "BLL/1.0.0": {
+      "type": "project",
+      "path": "../BLL/BLL.csproj",
+      "msbuildProject": "../BLL/BLL.csproj"
+    },
     "BOL/1.0.0": {
       "type": "project",
       "path": "../BOL/BOL.csproj",
       "msbuildProject": "../BOL/BOL.csproj"
+    },
+    "DAL/1.0.0": {
+      "type": "project",
+      "path": "../DAL/DAL.csproj",
+      "msbuildProject": "../DAL/DAL.csproj"
     },
     "SAL/1.0.0": {
       "type": "project",
@@ -41,23 +79,24 @@
   },
   "projectFileDependencyGroups": {
     "net7.0": [
+      "BOL >= 1.0.0",
       "SAL >= 1.0.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\IET\\.nuget\\packages\\": {}
+    "C:\\Users\\iet\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\IET\\Desktop\\Day6\\ECom\\TFLStore\\TFLStore.csproj",
+      "projectUniqueName": "C:\\Users\\iet\\Desktop\\reopo\\DOTNET_PROJECTS\\ECom\\TFLStore\\TFLStore.csproj",
       "projectName": "TFLStore",
-      "projectPath": "C:\\Users\\IET\\Desktop\\Day6\\ECom\\TFLStore\\TFLStore.csproj",
-      "packagesPath": "C:\\Users\\IET\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\IET\\Desktop\\Day6\\ECom\\TFLStore\\obj\\",
+      "projectPath": "C:\\Users\\iet\\Desktop\\reopo\\DOTNET_PROJECTS\\ECom\\TFLStore\\TFLStore.csproj",
+      "packagesPath": "C:\\Users\\iet\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\iet\\Desktop\\reopo\\DOTNET_PROJECTS\\ECom\\TFLStore\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\IET\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\iet\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
@@ -69,8 +108,11 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\IET\\Desktop\\Day6\\ECom\\SAL\\SAL.csproj": {
-              "projectPath": "C:\\Users\\IET\\Desktop\\Day6\\ECom\\SAL\\SAL.csproj"
+            "C:\\Users\\iet\\Desktop\\reopo\\DOTNET_PROJECTS\\ECom\\BOL\\BOL.csproj": {
+              "projectPath": "C:\\Users\\iet\\Desktop\\reopo\\DOTNET_PROJECTS\\ECom\\BOL\\BOL.csproj"
+            },
+            "C:\\Users\\iet\\Desktop\\reopo\\DOTNET_PROJECTS\\ECom\\SAL\\SAL.csproj": {
+              "projectPath": "C:\\Users\\iet\\Desktop\\reopo\\DOTNET_PROJECTS\\ECom\\SAL\\SAL.csproj"
             }
           }
         }

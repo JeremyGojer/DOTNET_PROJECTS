@@ -1,20 +1,80 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\IET\\Desktop\\Day6\\ECom\\SAL\\SAL.csproj": {}
+    "C:\\Users\\iet\\Desktop\\reopo\\DOTNET_PROJECTS\\ECom\\SAL\\SAL.csproj": {}
   },
   "projects": {
-    "C:\\Users\\IET\\Desktop\\Day6\\ECom\\BOL\\BOL.csproj": {
+    "C:\\Users\\iet\\Desktop\\reopo\\DOTNET_PROJECTS\\ECom\\BLL\\BLL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\IET\\Desktop\\Day6\\ECom\\BOL\\BOL.csproj",
-        "projectName": "BOL",
-        "projectPath": "C:\\Users\\IET\\Desktop\\Day6\\ECom\\BOL\\BOL.csproj",
-        "packagesPath": "C:\\Users\\IET\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\IET\\Desktop\\Day6\\ECom\\BOL\\obj\\",
+        "projectUniqueName": "C:\\Users\\iet\\Desktop\\reopo\\DOTNET_PROJECTS\\ECom\\BLL\\BLL.csproj",
+        "projectName": "BLL",
+        "projectPath": "C:\\Users\\iet\\Desktop\\reopo\\DOTNET_PROJECTS\\ECom\\BLL\\BLL.csproj",
+        "packagesPath": "C:\\Users\\iet\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\iet\\Desktop\\reopo\\DOTNET_PROJECTS\\ECom\\BLL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\IET\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\iet\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\iet\\Desktop\\reopo\\DOTNET_PROJECTS\\ECom\\BOL\\BOL.csproj": {
+                "projectPath": "C:\\Users\\iet\\Desktop\\reopo\\DOTNET_PROJECTS\\ECom\\BOL\\BOL.csproj"
+              },
+              "C:\\Users\\iet\\Desktop\\reopo\\DOTNET_PROJECTS\\ECom\\DAL\\DAL.csproj": {
+                "projectPath": "C:\\Users\\iet\\Desktop\\reopo\\DOTNET_PROJECTS\\ECom\\DAL\\DAL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\iet\\Desktop\\reopo\\DOTNET_PROJECTS\\ECom\\BOL\\BOL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\iet\\Desktop\\reopo\\DOTNET_PROJECTS\\ECom\\BOL\\BOL.csproj",
+        "projectName": "BOL",
+        "projectPath": "C:\\Users\\iet\\Desktop\\reopo\\DOTNET_PROJECTS\\ECom\\BOL\\BOL.csproj",
+        "packagesPath": "C:\\Users\\iet\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\iet\\Desktop\\reopo\\DOTNET_PROJECTS\\ECom\\BOL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\iet\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -57,17 +117,17 @@
         }
       }
     },
-    "C:\\Users\\IET\\Desktop\\Day6\\ECom\\SAL\\SAL.csproj": {
+    "C:\\Users\\iet\\Desktop\\reopo\\DOTNET_PROJECTS\\ECom\\DAL\\DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\IET\\Desktop\\Day6\\ECom\\SAL\\SAL.csproj",
-        "projectName": "SAL",
-        "projectPath": "C:\\Users\\IET\\Desktop\\Day6\\ECom\\SAL\\SAL.csproj",
-        "packagesPath": "C:\\Users\\IET\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\IET\\Desktop\\Day6\\ECom\\SAL\\obj\\",
+        "projectUniqueName": "C:\\Users\\iet\\Desktop\\reopo\\DOTNET_PROJECTS\\ECom\\DAL\\DAL.csproj",
+        "projectName": "DAL",
+        "projectPath": "C:\\Users\\iet\\Desktop\\reopo\\DOTNET_PROJECTS\\ECom\\DAL\\DAL.csproj",
+        "packagesPath": "C:\\Users\\iet\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\iet\\Desktop\\reopo\\DOTNET_PROJECTS\\ECom\\DAL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\IET\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\iet\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -79,8 +139,68 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\IET\\Desktop\\Day6\\ECom\\BOL\\BOL.csproj": {
-                "projectPath": "C:\\Users\\IET\\Desktop\\Day6\\ECom\\BOL\\BOL.csproj"
+              "C:\\Users\\iet\\Desktop\\reopo\\DOTNET_PROJECTS\\ECom\\BOL\\BOL.csproj": {
+                "projectPath": "C:\\Users\\iet\\Desktop\\reopo\\DOTNET_PROJECTS\\ECom\\BOL\\BOL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\iet\\Desktop\\reopo\\DOTNET_PROJECTS\\ECom\\SAL\\SAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\iet\\Desktop\\reopo\\DOTNET_PROJECTS\\ECom\\SAL\\SAL.csproj",
+        "projectName": "SAL",
+        "projectPath": "C:\\Users\\iet\\Desktop\\reopo\\DOTNET_PROJECTS\\ECom\\SAL\\SAL.csproj",
+        "packagesPath": "C:\\Users\\iet\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\iet\\Desktop\\reopo\\DOTNET_PROJECTS\\ECom\\SAL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\iet\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\iet\\Desktop\\reopo\\DOTNET_PROJECTS\\ECom\\BLL\\BLL.csproj": {
+                "projectPath": "C:\\Users\\iet\\Desktop\\reopo\\DOTNET_PROJECTS\\ECom\\BLL\\BLL.csproj"
+              },
+              "C:\\Users\\iet\\Desktop\\reopo\\DOTNET_PROJECTS\\ECom\\BOL\\BOL.csproj": {
+                "projectPath": "C:\\Users\\iet\\Desktop\\reopo\\DOTNET_PROJECTS\\ECom\\BOL\\BOL.csproj"
               }
             }
           }
