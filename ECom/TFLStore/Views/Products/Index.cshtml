@@ -2,23 +2,29 @@
 @{
     ViewData["Title"] = "Home Page";
     @* IProductServices productServices = new ProductServices();
-    var products = productServices.GetAllProducts(); *@
+var products = productServices.GetAllProducts(); *@
     List<Product> products = ViewData["products"] as List<Product>;
 }
 
 <div>
     <div class="text-center">
         <h1 class="display-4">Products</h1>
-        
+
     </div>
-    <hr/>
-    <table border='2'>
+    <hr />
+    <table border='2' class="table table-striped">
         @foreach (var product in products)
         {
-            <tr><td><img src=@product.ImageUrl width=60 height=60></td><td><a href="Products/Details/@product.Id">@product.Name</a></td><td><a href="http://www.google.com/search?q=@product.Name&source=lnms&tbm=isch&sa=X&ved=2ahUKEwiK_Mmp09_8AhWVR3wKHXF-DlwQ_AUoAXoECAEQAw&biw=1024&bih=657&dpr=1">Google</a><td></tr>    
+            <tr>
+                <td><img src=@product.ImageUrl width=60 height=60></td>
+                <td><a href="Products/Details/@product.Id">@product.Name</a></td>
+                <td><a href="http://www.google.com/search?q=@product.Name&source=lnms&tbm=isch&sa=X&ved=2ahUKEwiK_Mmp09_8AhWVR3wKHXF-DlwQ_AUoAXoECAEQAw&biw=1024&bih=657&dpr=1">Google</a></td>
+                <td>@product.UnitPrice</td>
+                <td><button type="submit" class="btn btn-success" id="ToCart" name="ToCart">Add to Cart</button></td>
+            </tr>
         }
     </table>
-    <hr/>
+    <hr />
     <a href="Products/Insert">Add More Products</a>
-    
+
 </div>
