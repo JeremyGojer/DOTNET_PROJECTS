@@ -9,69 +9,69 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = TFLStore
 build_property.RootNamespace = TFLStore
-build_property.ProjectDir = C:\Users\iet\Desktop\reopo\DOTNET_PROJECTS\ECom\TFLStore\
+build_property.ProjectDir = D:\GIT REPO\DOTNET_PROJECTS\ECom\TFLStore\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\iet\Desktop\reopo\DOTNET_PROJECTS\ECom\TFLStore
+build_property.MSBuildProjectDirectory = D:\GIT REPO\DOTNET_PROJECTS\ECom\TFLStore
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/iet/Desktop/reopo/DOTNET_PROJECTS/ECom/TFLStore/Views/Account/Login.cshtml]
+[D:/GIT REPO/DOTNET_PROJECTS/ECom/TFLStore/Views/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/iet/Desktop/reopo/DOTNET_PROJECTS/ECom/TFLStore/Views/Account/Register.cshtml]
+[D:/GIT REPO/DOTNET_PROJECTS/ECom/TFLStore/Views/Account/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/iet/Desktop/reopo/DOTNET_PROJECTS/ECom/TFLStore/Views/Home/AboutUs.cshtml]
+[D:/GIT REPO/DOTNET_PROJECTS/ECom/TFLStore/Views/Home/AboutUs.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBYm91dFVzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/iet/Desktop/reopo/DOTNET_PROJECTS/ECom/TFLStore/Views/Home/Contact.cshtml]
+[D:/GIT REPO/DOTNET_PROJECTS/ECom/TFLStore/Views/Home/Contact.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb250YWN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/iet/Desktop/reopo/DOTNET_PROJECTS/ECom/TFLStore/Views/Home/Index.cshtml]
+[D:/GIT REPO/DOTNET_PROJECTS/ECom/TFLStore/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/iet/Desktop/reopo/DOTNET_PROJECTS/ECom/TFLStore/Views/Home/ITOP.cshtml]
+[D:/GIT REPO/DOTNET_PROJECTS/ECom/TFLStore/Views/Home/ITOP.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJVE9QLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/iet/Desktop/reopo/DOTNET_PROJECTS/ECom/TFLStore/Views/Home/Privacy.cshtml]
+[D:/GIT REPO/DOTNET_PROJECTS/ECom/TFLStore/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/iet/Desktop/reopo/DOTNET_PROJECTS/ECom/TFLStore/Views/Products/Details.cshtml]
+[D:/GIT REPO/DOTNET_PROJECTS/ECom/TFLStore/Views/Products/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/iet/Desktop/reopo/DOTNET_PROJECTS/ECom/TFLStore/Views/Products/Index.cshtml]
+[D:/GIT REPO/DOTNET_PROJECTS/ECom/TFLStore/Views/Products/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/iet/Desktop/reopo/DOTNET_PROJECTS/ECom/TFLStore/Views/Products/Insert.cshtml]
+[D:/GIT REPO/DOTNET_PROJECTS/ECom/TFLStore/Views/Products/Insert.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcSW5zZXJ0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/iet/Desktop/reopo/DOTNET_PROJECTS/ECom/TFLStore/Views/Shared/Error.cshtml]
+[D:/GIT REPO/DOTNET_PROJECTS/ECom/TFLStore/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/iet/Desktop/reopo/DOTNET_PROJECTS/ECom/TFLStore/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/GIT REPO/DOTNET_PROJECTS/ECom/TFLStore/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/iet/Desktop/reopo/DOTNET_PROJECTS/ECom/TFLStore/Views/_ViewImports.cshtml]
+[D:/GIT REPO/DOTNET_PROJECTS/ECom/TFLStore/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/iet/Desktop/reopo/DOTNET_PROJECTS/ECom/TFLStore/Views/_ViewStart.cshtml]
+[D:/GIT REPO/DOTNET_PROJECTS/ECom/TFLStore/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/iet/Desktop/reopo/DOTNET_PROJECTS/ECom/TFLStore/Views/Shared/_Layout.cshtml]
+[D:/GIT REPO/DOTNET_PROJECTS/ECom/TFLStore/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-y15jrgfgfq

@@ -32,3 +32,22 @@ C:\Users\iet\Desktop\reopo\DOTNET_PROJECTS\ECom\SAL\bin\Debug\net7.0\BOL.pdb
 C:\Users\iet\Desktop\reopo\DOTNET_PROJECTS\ECom\SAL\bin\Debug\net7.0\DAL.pdb
 C:\Users\iet\Desktop\reopo\DOTNET_PROJECTS\ECom\SAL\obj\Debug\net7.0\SAL.csproj.CopyComplete
 C:\Users\iet\Desktop\reopo\DOTNET_PROJECTS\ECom\SAL\obj\Debug\net7.0\ref\SAL.dll
+D:\GIT REPO\DOTNET_PROJECTS\ECom\SAL\bin\Debug\net7.0\SAL.deps.json
+D:\GIT REPO\DOTNET_PROJECTS\ECom\SAL\bin\Debug\net7.0\SAL.dll
+D:\GIT REPO\DOTNET_PROJECTS\ECom\SAL\bin\Debug\net7.0\SAL.pdb
+D:\GIT REPO\DOTNET_PROJECTS\ECom\SAL\bin\Debug\net7.0\BLL.dll
+D:\GIT REPO\DOTNET_PROJECTS\ECom\SAL\bin\Debug\net7.0\BOL.dll
+D:\GIT REPO\DOTNET_PROJECTS\ECom\SAL\bin\Debug\net7.0\DAL.dll
+D:\GIT REPO\DOTNET_PROJECTS\ECom\SAL\bin\Debug\net7.0\BLL.pdb
+D:\GIT REPO\DOTNET_PROJECTS\ECom\SAL\bin\Debug\net7.0\BOL.pdb
+D:\GIT REPO\DOTNET_PROJECTS\ECom\SAL\bin\Debug\net7.0\DAL.pdb
+D:\GIT REPO\DOTNET_PROJECTS\ECom\SAL\obj\Debug\net7.0\SAL.csproj.AssemblyReference.cache
+D:\GIT REPO\DOTNET_PROJECTS\ECom\SAL\obj\Debug\net7.0\SAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\GIT REPO\DOTNET_PROJECTS\ECom\SAL\obj\Debug\net7.0\SAL.AssemblyInfoInputs.cache
+D:\GIT REPO\DOTNET_PROJECTS\ECom\SAL\obj\Debug\net7.0\SAL.AssemblyInfo.cs
+D:\GIT REPO\DOTNET_PROJECTS\ECom\SAL\obj\Debug\net7.0\SAL.csproj.CoreCompileInputs.cache
+D:\GIT REPO\DOTNET_PROJECTS\ECom\SAL\obj\Debug\net7.0\SAL.csproj.CopyComplete
+D:\GIT REPO\DOTNET_PROJECTS\ECom\SAL\obj\Debug\net7.0\SAL.dll
+D:\GIT REPO\DOTNET_PROJECTS\ECom\SAL\obj\Debug\net7.0\refint\SAL.dll
+D:\GIT REPO\DOTNET_PROJECTS\ECom\SAL\obj\Debug\net7.0\SAL.pdb
+D:\GIT REPO\DOTNET_PROJECTS\ECom\SAL\obj\Debug\net7.0\ref\SAL.dll

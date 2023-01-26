@@ -15,3 +15,20 @@ C:\Users\iet\Desktop\reopo\DOTNET_PROJECTS\ECom\BLL\obj\Debug\net7.0\BLL.dll
 C:\Users\iet\Desktop\reopo\DOTNET_PROJECTS\ECom\BLL\obj\Debug\net7.0\refint\BLL.dll
 C:\Users\iet\Desktop\reopo\DOTNET_PROJECTS\ECom\BLL\obj\Debug\net7.0\BLL.pdb
 C:\Users\iet\Desktop\reopo\DOTNET_PROJECTS\ECom\BLL\obj\Debug\net7.0\ref\BLL.dll
+D:\GIT REPO\DOTNET_PROJECTS\ECom\BLL\bin\Debug\net7.0\BLL.deps.json
+D:\GIT REPO\DOTNET_PROJECTS\ECom\BLL\bin\Debug\net7.0\BLL.dll
+D:\GIT REPO\DOTNET_PROJECTS\ECom\BLL\bin\Debug\net7.0\BLL.pdb
+D:\GIT REPO\DOTNET_PROJECTS\ECom\BLL\bin\Debug\net7.0\BOL.dll
+D:\GIT REPO\DOTNET_PROJECTS\ECom\BLL\bin\Debug\net7.0\DAL.dll
+D:\GIT REPO\DOTNET_PROJECTS\ECom\BLL\bin\Debug\net7.0\DAL.pdb
+D:\GIT REPO\DOTNET_PROJECTS\ECom\BLL\bin\Debug\net7.0\BOL.pdb
+D:\GIT REPO\DOTNET_PROJECTS\ECom\BLL\obj\Debug\net7.0\BLL.csproj.AssemblyReference.cache
+D:\GIT REPO\DOTNET_PROJECTS\ECom\BLL\obj\Debug\net7.0\BLL.GeneratedMSBuildEditorConfig.editorconfig
+D:\GIT REPO\DOTNET_PROJECTS\ECom\BLL\obj\Debug\net7.0\BLL.AssemblyInfoInputs.cache
+D:\GIT REPO\DOTNET_PROJECTS\ECom\BLL\obj\Debug\net7.0\BLL.AssemblyInfo.cs
+D:\GIT REPO\DOTNET_PROJECTS\ECom\BLL\obj\Debug\net7.0\BLL.csproj.CoreCompileInputs.cache
+D:\GIT REPO\DOTNET_PROJECTS\ECom\BLL\obj\Debug\net7.0\BLL.csproj.CopyComplete
+D:\GIT REPO\DOTNET_PROJECTS\ECom\BLL\obj\Debug\net7.0\BLL.dll
+D:\GIT REPO\DOTNET_PROJECTS\ECom\BLL\obj\Debug\net7.0\refint\BLL.dll
+D:\GIT REPO\DOTNET_PROJECTS\ECom\BLL\obj\Debug\net7.0\BLL.pdb
+D:\GIT REPO\DOTNET_PROJECTS\ECom\BLL\obj\Debug\net7.0\ref\BLL.dll

@@ -5,25 +5,20 @@ using System.IO;
 using System.Text.Json;
 
 public class CustomerIOManager{
-    private string path=@"C:\customers\iet\Desktop\reopo\DOTNET_PROJECTS\ECom\TFLStore\wwwroot\files\Customers.json";
+    private string path=@"..\TFLStore\wwwroot\files\Customers.json";
 
-    public List<Product> GetAll()
+    public List<Customer> GetAll()
     {
-        List<Product> customers = Load(this.path);
-        // if (customers == null)
-        // {
-        //     customers.Add(new Product(1, "Gerbera", "Wedding Flower", 500, 45));
-        //     customers.Add(new Product(2, "Rose", "Valentine Flower", 500, 45));
-        //     customers.Add(new Product(3, "Tulip", "Bright Flower", 500, 45));
-        //     customers.Add(new Product(4, "Lotus", "Holy Flower", 500, 45));
-        //     customers.Add(new Product(5, "Jasmine", "Fragrance Flower", 500, 45));
-        //     customers.Add(new Product(6, "Sunflower", "WellBeing Flower", 500, 45));
-        //     customers.Add(new Product(7, "Orchid", "Nice Flower", 500, 45));
-        // }
+        List<Customer> customers = Load(this.path);
+        if (customers == null)
+        {
+            customers.Add(new Customer("Jeremy", "Gojer", "gojerjeremy@gmail.com", "Jeremy", "7019294131"));
+            
+        }
         return customers;
     }
 
-    public bool Save(string path, List<Product> customers)
+    public bool Save(string path, List<Customer> customers)
     {
         
         bool status = false;
@@ -32,21 +27,21 @@ public class CustomerIOManager{
         return true;
     }
 
-    public List<Product> Load(string path)
+    public List<Customer> Load(string path)
     {
         string json = File.ReadAllText(path);
-        List<Product> customers = JsonSerializer.Deserialize<List<Product>>(json);
+        List<Customer> customers = JsonSerializer.Deserialize<List<Customer>>(json);
         return customers;
     }
 
-    public bool AddProduct(Product product)
+    public bool AddCustomer(Customer customer)
     {
         bool status = false;
         
         try
         {
-            List<Product> customers = Load(this.path);
-            customers.Add(product);
+            List<Customer> customers = Load(this.path);
+            customers.Add(customer);
             Save(this.path, customers);
             status = true;
             return status;
@@ -58,26 +53,11 @@ public class CustomerIOManager{
 
     }
 
-    public bool RemoveProduct(Product product)
+    public bool RemoveCustomer(Customer customer)
     {
         bool status = false;
        
-        try
-        {
-            List<Product> customers = Load(this.path);
-            foreach(var prod in customers){
-                if(product.Id==prod.Id){
-
-                }
-            }
-            Save(this.path, customers);
-            status = true;
-            return status;
-        }
-        catch (Exception e)
-        {
-            return status;
-        }
+        return false;
 
     }
 }

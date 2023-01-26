@@ -74,3 +74,43 @@ C:\Users\iet\Desktop\reopo\DOTNET_PROJECTS\ECom\TFLStore\obj\Debug\net7.0\scoped
 C:\Users\iet\Desktop\reopo\DOTNET_PROJECTS\ECom\TFLStore\obj\Debug\net7.0\TFLStore.csproj.CopyComplete
 C:\Users\iet\Desktop\reopo\DOTNET_PROJECTS\ECom\TFLStore\obj\Debug\net7.0\TFLStore.genruntimeconfig.cache
 C:\Users\iet\Desktop\reopo\DOTNET_PROJECTS\ECom\TFLStore\obj\Debug\net7.0\ref\TFLStore.dll
+D:\GIT REPO\DOTNET_PROJECTS\ECom\TFLStore\bin\Debug\net7.0\appsettings.Development.json
+D:\GIT REPO\DOTNET_PROJECTS\ECom\TFLStore\bin\Debug\net7.0\appsettings.json
+D:\GIT REPO\DOTNET_PROJECTS\ECom\TFLStore\bin\Debug\net7.0\TFLStore.staticwebassets.runtime.json
+D:\GIT REPO\DOTNET_PROJECTS\ECom\TFLStore\bin\Debug\net7.0\TFLStore.exe
+D:\GIT REPO\DOTNET_PROJECTS\ECom\TFLStore\bin\Debug\net7.0\TFLStore.deps.json
+D:\GIT REPO\DOTNET_PROJECTS\ECom\TFLStore\bin\Debug\net7.0\TFLStore.runtimeconfig.json
+D:\GIT REPO\DOTNET_PROJECTS\ECom\TFLStore\bin\Debug\net7.0\TFLStore.dll
+D:\GIT REPO\DOTNET_PROJECTS\ECom\TFLStore\bin\Debug\net7.0\TFLStore.pdb
+D:\GIT REPO\DOTNET_PROJECTS\ECom\TFLStore\bin\Debug\net7.0\BLL.dll
+D:\GIT REPO\DOTNET_PROJECTS\ECom\TFLStore\bin\Debug\net7.0\BOL.dll
+D:\GIT REPO\DOTNET_PROJECTS\ECom\TFLStore\bin\Debug\net7.0\DAL.dll
+D:\GIT REPO\DOTNET_PROJECTS\ECom\TFLStore\bin\Debug\net7.0\SAL.dll
+D:\GIT REPO\DOTNET_PROJECTS\ECom\TFLStore\bin\Debug\net7.0\SAL.pdb
+D:\GIT REPO\DOTNET_PROJECTS\ECom\TFLStore\bin\Debug\net7.0\BOL.pdb
+D:\GIT REPO\DOTNET_PROJECTS\ECom\TFLStore\bin\Debug\net7.0\BLL.pdb
+D:\GIT REPO\DOTNET_PROJECTS\ECom\TFLStore\bin\Debug\net7.0\DAL.pdb
+D:\GIT REPO\DOTNET_PROJECTS\ECom\TFLStore\obj\Debug\net7.0\TFLStore.csproj.AssemblyReference.cache
+D:\GIT REPO\DOTNET_PROJECTS\ECom\TFLStore\obj\Debug\net7.0\TFLStore.GeneratedMSBuildEditorConfig.editorconfig
+D:\GIT REPO\DOTNET_PROJECTS\ECom\TFLStore\obj\Debug\net7.0\TFLStore.AssemblyInfoInputs.cache
+D:\GIT REPO\DOTNET_PROJECTS\ECom\TFLStore\obj\Debug\net7.0\TFLStore.AssemblyInfo.cs
+D:\GIT REPO\DOTNET_PROJECTS\ECom\TFLStore\obj\Debug\net7.0\TFLStore.csproj.CoreCompileInputs.cache
+D:\GIT REPO\DOTNET_PROJECTS\ECom\TFLStore\obj\Debug\net7.0\TFLStore.MvcApplicationPartsAssemblyInfo.cache
+D:\GIT REPO\DOTNET_PROJECTS\ECom\TFLStore\obj\Debug\net7.0\TFLStore.RazorAssemblyInfo.cache
+D:\GIT REPO\DOTNET_PROJECTS\ECom\TFLStore\obj\Debug\net7.0\TFLStore.RazorAssemblyInfo.cs
+D:\GIT REPO\DOTNET_PROJECTS\ECom\TFLStore\obj\Debug\net7.0\staticwebassets\msbuild.TFLStore.Microsoft.AspNetCore.StaticWebAssets.props
+D:\GIT REPO\DOTNET_PROJECTS\ECom\TFLStore\obj\Debug\net7.0\staticwebassets\msbuild.build.TFLStore.props
+D:\GIT REPO\DOTNET_PROJECTS\ECom\TFLStore\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.TFLStore.props
+D:\GIT REPO\DOTNET_PROJECTS\ECom\TFLStore\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.TFLStore.props
+D:\GIT REPO\DOTNET_PROJECTS\ECom\TFLStore\obj\Debug\net7.0\staticwebassets.pack.json
+D:\GIT REPO\DOTNET_PROJECTS\ECom\TFLStore\obj\Debug\net7.0\staticwebassets.build.json
+D:\GIT REPO\DOTNET_PROJECTS\ECom\TFLStore\obj\Debug\net7.0\staticwebassets.development.json
+D:\GIT REPO\DOTNET_PROJECTS\ECom\TFLStore\obj\Debug\net7.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\GIT REPO\DOTNET_PROJECTS\ECom\TFLStore\obj\Debug\net7.0\scopedcss\bundle\TFLStore.styles.css
+D:\GIT REPO\DOTNET_PROJECTS\ECom\TFLStore\obj\Debug\net7.0\scopedcss\projectbundle\TFLStore.bundle.scp.css
+D:\GIT REPO\DOTNET_PROJECTS\ECom\TFLStore\obj\Debug\net7.0\TFLStore.csproj.CopyComplete
+D:\GIT REPO\DOTNET_PROJECTS\ECom\TFLStore\obj\Debug\net7.0\TFLStore.dll
+D:\GIT REPO\DOTNET_PROJECTS\ECom\TFLStore\obj\Debug\net7.0\refint\TFLStore.dll
+D:\GIT REPO\DOTNET_PROJECTS\ECom\TFLStore\obj\Debug\net7.0\TFLStore.pdb
+D:\GIT REPO\DOTNET_PROJECTS\ECom\TFLStore\obj\Debug\net7.0\TFLStore.genruntimeconfig.cache
+D:\GIT REPO\DOTNET_PROJECTS\ECom\TFLStore\obj\Debug\net7.0\ref\TFLStore.dll
