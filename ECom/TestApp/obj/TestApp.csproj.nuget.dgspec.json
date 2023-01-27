@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\GIT REPO\\DOTNET_PROJECTS\\ECom\\TestApp\\TestApp.csproj": {}
+    "C:\\Users\\IET\\Desktop\\Pen Pencil\\DOTNET_PROJECTS\\ECom\\TestApp\\TestApp.csproj": {}
   },
   "projects": {
-    "D:\\GIT REPO\\DOTNET_PROJECTS\\ECom\\BLL\\BLL.csproj": {
+    "C:\\Users\\IET\\Desktop\\Pen Pencil\\DOTNET_PROJECTS\\ECom\\BLL\\BLL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GIT REPO\\DOTNET_PROJECTS\\ECom\\BLL\\BLL.csproj",
+        "projectUniqueName": "C:\\Users\\IET\\Desktop\\Pen Pencil\\DOTNET_PROJECTS\\ECom\\BLL\\BLL.csproj",
         "projectName": "BLL",
-        "projectPath": "D:\\GIT REPO\\DOTNET_PROJECTS\\ECom\\BLL\\BLL.csproj",
-        "packagesPath": "C:\\Users\\jerem\\.nuget\\packages\\",
-        "outputPath": "D:\\GIT REPO\\DOTNET_PROJECTS\\ECom\\BLL\\obj\\",
+        "projectPath": "C:\\Users\\IET\\Desktop\\Pen Pencil\\DOTNET_PROJECTS\\ECom\\BLL\\BLL.csproj",
+        "packagesPath": "C:\\Users\\IET\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\IET\\Desktop\\Pen Pencil\\DOTNET_PROJECTS\\ECom\\BLL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\jerem\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\IET\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -26,11 +26,11 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\GIT REPO\\DOTNET_PROJECTS\\ECom\\BOL\\BOL.csproj": {
-                "projectPath": "D:\\GIT REPO\\DOTNET_PROJECTS\\ECom\\BOL\\BOL.csproj"
+              "C:\\Users\\IET\\Desktop\\Pen Pencil\\DOTNET_PROJECTS\\ECom\\BOL\\BOL.csproj": {
+                "projectPath": "C:\\Users\\IET\\Desktop\\Pen Pencil\\DOTNET_PROJECTS\\ECom\\BOL\\BOL.csproj"
               },
-              "D:\\GIT REPO\\DOTNET_PROJECTS\\ECom\\DAL\\DAL.csproj": {
-                "projectPath": "D:\\GIT REPO\\DOTNET_PROJECTS\\ECom\\DAL\\DAL.csproj"
+              "C:\\Users\\IET\\Desktop\\Pen Pencil\\DOTNET_PROJECTS\\ECom\\DAL\\DAL.csproj": {
+                "projectPath": "C:\\Users\\IET\\Desktop\\Pen Pencil\\DOTNET_PROJECTS\\ECom\\DAL\\DAL.csproj"
               }
             }
           }
@@ -64,17 +64,17 @@
         }
       }
     },
-    "D:\\GIT REPO\\DOTNET_PROJECTS\\ECom\\BOL\\BOL.csproj": {
+    "C:\\Users\\IET\\Desktop\\Pen Pencil\\DOTNET_PROJECTS\\ECom\\BOL\\BOL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GIT REPO\\DOTNET_PROJECTS\\ECom\\BOL\\BOL.csproj",
+        "projectUniqueName": "C:\\Users\\IET\\Desktop\\Pen Pencil\\DOTNET_PROJECTS\\ECom\\BOL\\BOL.csproj",
         "projectName": "BOL",
-        "projectPath": "D:\\GIT REPO\\DOTNET_PROJECTS\\ECom\\BOL\\BOL.csproj",
-        "packagesPath": "C:\\Users\\jerem\\.nuget\\packages\\",
-        "outputPath": "D:\\GIT REPO\\DOTNET_PROJECTS\\ECom\\BOL\\obj\\",
+        "projectPath": "C:\\Users\\IET\\Desktop\\Pen Pencil\\DOTNET_PROJECTS\\ECom\\BOL\\BOL.csproj",
+        "packagesPath": "C:\\Users\\IET\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\IET\\Desktop\\Pen Pencil\\DOTNET_PROJECTS\\ECom\\BOL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\jerem\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\IET\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -117,17 +117,17 @@
         }
       }
     },
-    "D:\\GIT REPO\\DOTNET_PROJECTS\\ECom\\DAL\\DAL.csproj": {
+    "C:\\Users\\IET\\Desktop\\Pen Pencil\\DOTNET_PROJECTS\\ECom\\DAL\\DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GIT REPO\\DOTNET_PROJECTS\\ECom\\DAL\\DAL.csproj",
+        "projectUniqueName": "C:\\Users\\IET\\Desktop\\Pen Pencil\\DOTNET_PROJECTS\\ECom\\DAL\\DAL.csproj",
         "projectName": "DAL",
-        "projectPath": "D:\\GIT REPO\\DOTNET_PROJECTS\\ECom\\DAL\\DAL.csproj",
-        "packagesPath": "C:\\Users\\jerem\\.nuget\\packages\\",
-        "outputPath": "D:\\GIT REPO\\DOTNET_PROJECTS\\ECom\\DAL\\obj\\",
+        "projectPath": "C:\\Users\\IET\\Desktop\\Pen Pencil\\DOTNET_PROJECTS\\ECom\\DAL\\DAL.csproj",
+        "packagesPath": "C:\\Users\\IET\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\IET\\Desktop\\Pen Pencil\\DOTNET_PROJECTS\\ECom\\DAL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\jerem\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\IET\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -139,8 +139,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\GIT REPO\\DOTNET_PROJECTS\\ECom\\BOL\\BOL.csproj": {
-                "projectPath": "D:\\GIT REPO\\DOTNET_PROJECTS\\ECom\\BOL\\BOL.csproj"
+              "C:\\Users\\IET\\Desktop\\Pen Pencil\\DOTNET_PROJECTS\\ECom\\BOL\\BOL.csproj": {
+                "projectPath": "C:\\Users\\IET\\Desktop\\Pen Pencil\\DOTNET_PROJECTS\\ECom\\BOL\\BOL.csproj"
               }
             }
           }
@@ -154,6 +154,12 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "mysql.data": {
+              "target": "Package",
+              "version": "[8.0.32, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -174,17 +180,17 @@
         }
       }
     },
-    "D:\\GIT REPO\\DOTNET_PROJECTS\\ECom\\SAL\\SAL.csproj": {
+    "C:\\Users\\IET\\Desktop\\Pen Pencil\\DOTNET_PROJECTS\\ECom\\SAL\\SAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GIT REPO\\DOTNET_PROJECTS\\ECom\\SAL\\SAL.csproj",
+        "projectUniqueName": "C:\\Users\\IET\\Desktop\\Pen Pencil\\DOTNET_PROJECTS\\ECom\\SAL\\SAL.csproj",
         "projectName": "SAL",
-        "projectPath": "D:\\GIT REPO\\DOTNET_PROJECTS\\ECom\\SAL\\SAL.csproj",
-        "packagesPath": "C:\\Users\\jerem\\.nuget\\packages\\",
-        "outputPath": "D:\\GIT REPO\\DOTNET_PROJECTS\\ECom\\SAL\\obj\\",
+        "projectPath": "C:\\Users\\IET\\Desktop\\Pen Pencil\\DOTNET_PROJECTS\\ECom\\SAL\\SAL.csproj",
+        "packagesPath": "C:\\Users\\IET\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\IET\\Desktop\\Pen Pencil\\DOTNET_PROJECTS\\ECom\\SAL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\jerem\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\IET\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -196,11 +202,11 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\GIT REPO\\DOTNET_PROJECTS\\ECom\\BLL\\BLL.csproj": {
-                "projectPath": "D:\\GIT REPO\\DOTNET_PROJECTS\\ECom\\BLL\\BLL.csproj"
+              "C:\\Users\\IET\\Desktop\\Pen Pencil\\DOTNET_PROJECTS\\ECom\\BLL\\BLL.csproj": {
+                "projectPath": "C:\\Users\\IET\\Desktop\\Pen Pencil\\DOTNET_PROJECTS\\ECom\\BLL\\BLL.csproj"
               },
-              "D:\\GIT REPO\\DOTNET_PROJECTS\\ECom\\BOL\\BOL.csproj": {
-                "projectPath": "D:\\GIT REPO\\DOTNET_PROJECTS\\ECom\\BOL\\BOL.csproj"
+              "C:\\Users\\IET\\Desktop\\Pen Pencil\\DOTNET_PROJECTS\\ECom\\BOL\\BOL.csproj": {
+                "projectPath": "C:\\Users\\IET\\Desktop\\Pen Pencil\\DOTNET_PROJECTS\\ECom\\BOL\\BOL.csproj"
               }
             }
           }
@@ -234,17 +240,17 @@
         }
       }
     },
-    "D:\\GIT REPO\\DOTNET_PROJECTS\\ECom\\TestApp\\TestApp.csproj": {
+    "C:\\Users\\IET\\Desktop\\Pen Pencil\\DOTNET_PROJECTS\\ECom\\TestApp\\TestApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GIT REPO\\DOTNET_PROJECTS\\ECom\\TestApp\\TestApp.csproj",
+        "projectUniqueName": "C:\\Users\\IET\\Desktop\\Pen Pencil\\DOTNET_PROJECTS\\ECom\\TestApp\\TestApp.csproj",
         "projectName": "TestApp",
-        "projectPath": "D:\\GIT REPO\\DOTNET_PROJECTS\\ECom\\TestApp\\TestApp.csproj",
-        "packagesPath": "C:\\Users\\jerem\\.nuget\\packages\\",
-        "outputPath": "D:\\GIT REPO\\DOTNET_PROJECTS\\ECom\\TestApp\\obj\\",
+        "projectPath": "C:\\Users\\IET\\Desktop\\Pen Pencil\\DOTNET_PROJECTS\\ECom\\TestApp\\TestApp.csproj",
+        "packagesPath": "C:\\Users\\IET\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\IET\\Desktop\\Pen Pencil\\DOTNET_PROJECTS\\ECom\\TestApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\jerem\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\IET\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -256,20 +262,20 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\GIT REPO\\DOTNET_PROJECTS\\ECom\\BLL\\BLL.csproj": {
-                "projectPath": "D:\\GIT REPO\\DOTNET_PROJECTS\\ECom\\BLL\\BLL.csproj"
+              "C:\\Users\\IET\\Desktop\\Pen Pencil\\DOTNET_PROJECTS\\ECom\\BLL\\BLL.csproj": {
+                "projectPath": "C:\\Users\\IET\\Desktop\\Pen Pencil\\DOTNET_PROJECTS\\ECom\\BLL\\BLL.csproj"
               },
-              "D:\\GIT REPO\\DOTNET_PROJECTS\\ECom\\BOL\\BOL.csproj": {
-                "projectPath": "D:\\GIT REPO\\DOTNET_PROJECTS\\ECom\\BOL\\BOL.csproj"
+              "C:\\Users\\IET\\Desktop\\Pen Pencil\\DOTNET_PROJECTS\\ECom\\BOL\\BOL.csproj": {
+                "projectPath": "C:\\Users\\IET\\Desktop\\Pen Pencil\\DOTNET_PROJECTS\\ECom\\BOL\\BOL.csproj"
               },
-              "D:\\GIT REPO\\DOTNET_PROJECTS\\ECom\\DAL\\DAL.csproj": {
-                "projectPath": "D:\\GIT REPO\\DOTNET_PROJECTS\\ECom\\DAL\\DAL.csproj"
+              "C:\\Users\\IET\\Desktop\\Pen Pencil\\DOTNET_PROJECTS\\ECom\\DAL\\DAL.csproj": {
+                "projectPath": "C:\\Users\\IET\\Desktop\\Pen Pencil\\DOTNET_PROJECTS\\ECom\\DAL\\DAL.csproj"
               },
-              "D:\\GIT REPO\\DOTNET_PROJECTS\\ECom\\SAL\\SAL.csproj": {
-                "projectPath": "D:\\GIT REPO\\DOTNET_PROJECTS\\ECom\\SAL\\SAL.csproj"
+              "C:\\Users\\IET\\Desktop\\Pen Pencil\\DOTNET_PROJECTS\\ECom\\SAL\\SAL.csproj": {
+                "projectPath": "C:\\Users\\IET\\Desktop\\Pen Pencil\\DOTNET_PROJECTS\\ECom\\SAL\\SAL.csproj"
               },
-              "D:\\GIT REPO\\DOTNET_PROJECTS\\ECom\\TFLStore\\TFLStore.csproj": {
-                "projectPath": "D:\\GIT REPO\\DOTNET_PROJECTS\\ECom\\TFLStore\\TFLStore.csproj"
+              "C:\\Users\\IET\\Desktop\\Pen Pencil\\DOTNET_PROJECTS\\ECom\\TFLStore\\TFLStore.csproj": {
+                "projectPath": "C:\\Users\\IET\\Desktop\\Pen Pencil\\DOTNET_PROJECTS\\ECom\\TFLStore\\TFLStore.csproj"
               }
             }
           }
@@ -303,17 +309,17 @@
         }
       }
     },
-    "D:\\GIT REPO\\DOTNET_PROJECTS\\ECom\\TFLStore\\TFLStore.csproj": {
+    "C:\\Users\\IET\\Desktop\\Pen Pencil\\DOTNET_PROJECTS\\ECom\\TFLStore\\TFLStore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GIT REPO\\DOTNET_PROJECTS\\ECom\\TFLStore\\TFLStore.csproj",
+        "projectUniqueName": "C:\\Users\\IET\\Desktop\\Pen Pencil\\DOTNET_PROJECTS\\ECom\\TFLStore\\TFLStore.csproj",
         "projectName": "TFLStore",
-        "projectPath": "D:\\GIT REPO\\DOTNET_PROJECTS\\ECom\\TFLStore\\TFLStore.csproj",
-        "packagesPath": "C:\\Users\\jerem\\.nuget\\packages\\",
-        "outputPath": "D:\\GIT REPO\\DOTNET_PROJECTS\\ECom\\TFLStore\\obj\\",
+        "projectPath": "C:\\Users\\IET\\Desktop\\Pen Pencil\\DOTNET_PROJECTS\\ECom\\TFLStore\\TFLStore.csproj",
+        "packagesPath": "C:\\Users\\IET\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\IET\\Desktop\\Pen Pencil\\DOTNET_PROJECTS\\ECom\\TFLStore\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\jerem\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\IET\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -325,11 +331,11 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\GIT REPO\\DOTNET_PROJECTS\\ECom\\BOL\\BOL.csproj": {
-                "projectPath": "D:\\GIT REPO\\DOTNET_PROJECTS\\ECom\\BOL\\BOL.csproj"
+              "C:\\Users\\IET\\Desktop\\Pen Pencil\\DOTNET_PROJECTS\\ECom\\BOL\\BOL.csproj": {
+                "projectPath": "C:\\Users\\IET\\Desktop\\Pen Pencil\\DOTNET_PROJECTS\\ECom\\BOL\\BOL.csproj"
               },
-              "D:\\GIT REPO\\DOTNET_PROJECTS\\ECom\\SAL\\SAL.csproj": {
-                "projectPath": "D:\\GIT REPO\\DOTNET_PROJECTS\\ECom\\SAL\\SAL.csproj"
+              "C:\\Users\\IET\\Desktop\\Pen Pencil\\DOTNET_PROJECTS\\ECom\\SAL\\SAL.csproj": {
+                "projectPath": "C:\\Users\\IET\\Desktop\\Pen Pencil\\DOTNET_PROJECTS\\ECom\\SAL\\SAL.csproj"
               }
             }
           }

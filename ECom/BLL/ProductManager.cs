@@ -6,6 +6,7 @@ public class ProductManager{
     
     public static ProductManager instance = null;
     private ProductIOManager productIOManager = new ProductIOManager();
+    private ProductDBManager productDBManager = new ProductDBManager();
     private ProductManager(){
 
     }

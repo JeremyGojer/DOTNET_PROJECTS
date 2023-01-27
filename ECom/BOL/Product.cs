@@ -18,7 +18,7 @@ public class Product{
         ImageUrl = imageUrl;
     }
 
-    public Product(int id, string name, string description, double unitPrice, int quantity)
+    public Product(int id, string name, string description, double unitPrice, int quantity, string imageUrl)
     {
         Id = id;
         Name = name;
