@@ -30,5 +30,12 @@ public class ProductManager{
         return productIOManager.RemoveProduct(product);
     }
 
+    public void SortByName(){
+        productIOManager.SortByName();
+    }
+
+    public void SortByPrice(){
+        productIOManager.SortByPrice();
+    }
     
 }

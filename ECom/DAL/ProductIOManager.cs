@@ -90,4 +90,17 @@ public class ProductIOManager
         }
 
     }
+    public void SortByName(){
+        List<Product> products = Load(this.path);
+        IComparer<Product> sortbyname = new SortProductByName();
+        products.Sort(sortbyname);
+        Save(this.path,products);
+    }
+
+    public void SortByPrice(){
+        List<Product> products = Load(this.path);
+        IComparer<Product> sortbyprice = new SortProductByPrice();
+        products.Sort(sortbyprice);
+        Save(this.path,products);
+    }
 }

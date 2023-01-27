@@ -6,18 +6,6 @@ using BLL;
 public class ProductServices:IProductServices{
     private ProductManager productManager = ProductManager.GetProductManager();
 
-    // public List<Product> DisplayAllProducts(){
-    //     var products = new List<Product>();
-    //     products.Add(new Product("Gerbera","Wedding Flower",500,45));
-    //     products.Add(new Product("Rose","Valentine Flower",500,45));
-    //     products.Add(new Product("Tulip","Bright Flower",500,45));
-    //     products.Add(new Product("Lotus","Holy Flower",500,45));
-    //     products.Add(new Product("Jasmine","Fragrance Flower",500,45));
-    //     products.Add(new Product("Sunflower","WellBeing Flower",500,45));
-    //     products.Add(new Product("Orchid","Nice Flower",500,45));
-    //     return products;
-    // }
-
     public List<Product> GetAllProducts(){
         return productManager.GetAll();
     }
@@ -38,5 +26,12 @@ public class ProductServices:IProductServices{
             }
         }
         return null;
+    }
+    public void SortByName(){
+        productManager.SortByName();
+    }
+
+    public void SortByPrice(){
+        productManager.SortByPrice();
     }
 }

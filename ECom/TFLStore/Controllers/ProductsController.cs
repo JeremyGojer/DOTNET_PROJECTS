@@ -40,6 +40,10 @@ public class ProductsController : Controller
     public IActionResult Insert(){
         return View();
     }
+    public IActionResult AddToCart(){
+        //shoppingCart.AddToCart();
+        return RedirectToAction("Index", "Products");
+    }
     [HttpPost]
     public IActionResult Insert(string name, string description,double unitPrice,int quantity,string imageUrl){
         bool status = productServices.AddProduct(new Product(name,description,unitPrice,quantity,imageUrl));
@@ -56,6 +60,16 @@ public class ProductsController : Controller
     
     public IActionResult Update(){
         return View();
+    }
+
+    public IActionResult SortByName(){
+        productServices.SortByName();
+        return RedirectToAction("Index","Products");
+    }
+
+    public IActionResult SortByPrice(){
+        productServices.SortByPrice();
+        return RedirectToAction("Index","Products");
     }
 
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

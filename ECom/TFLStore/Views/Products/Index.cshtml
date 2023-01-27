@@ -13,14 +13,24 @@ var products = productServices.GetAllProducts(); *@
     </div>
     <hr />
     <table border='2' class="table table-striped">
+        <tr>
+            <th></th>
+            <th><a href="Products/SortByName">Sort by Name</a></th>
+            <th></th>
+            <th><a href="Products/SortByPrice">Sort by Price</a></th>
+            <th><a href="ShoppingCart">To Cart</a></th>
+        </tr>
         @foreach (var product in products)
         {
             <tr>
-                <td><img src=@product.ImageUrl width=60 height=60></td>
-                <td><a href="Products/Details/@product.Id">@product.Name</a></td>
-                <td><a href="http://www.google.com/search?q=@product.Name&source=lnms&tbm=isch&sa=X&ved=2ahUKEwiK_Mmp09_8AhWVR3wKHXF-DlwQ_AUoAXoECAEQAw&biw=1024&bih=657&dpr=1">Google</a></td>
-                <td>@product.UnitPrice</td>
-                <td><button type="submit" class="btn btn-success" id="ToCart" name="ToCart">Add to Cart</button></td>
+                <form>
+                    <td><img src=@product.ImageUrl width=60 height=60></td>
+                    <td><a href="Products/Details/@product.Id">@product.Name</a></td>
+                    <td><a href="http://www.google.com/search?q=@product.Name&source=lnms&tbm=isch&sa=X&ved=2ahUKEwiK_Mmp09_8AhWVR3wKHXF-DlwQ_AUoAXoECAEQAw&biw=1024&bih=657&dpr=1">Google</a>
+                    </td>
+                    <td>@product.UnitPrice</td>
+                    <td><button type="submit" class="btn btn-success" id="ToCart" name="ToCart">Add to Cart</button></td>
+                </form>
             </tr>
         }
     </table>

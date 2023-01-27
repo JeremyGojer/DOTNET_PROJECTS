@@ -9,4 +9,6 @@ public interface IProductServices{
 
     public bool RemoveProduct(Product product);
     public Product GetProductById(int id);
+    public void SortByName();
+    public void SortByPrice();
 }
