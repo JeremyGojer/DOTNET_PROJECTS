@@ -5,6 +5,7 @@ using DAL;
 public class CustomerManager{
     public static CustomerManager instance = null;
     private CustomerIOManager customerIOManager= new CustomerIOManager();
+    
     private CustomerManager(){
 
     }
@@ -28,4 +29,5 @@ public class CustomerManager{
     public bool RemoveCustomer(Customer customer){
         return customerIOManager.RemoveCustomer(customer);
     }
+
 }

@@ -5,7 +5,7 @@ using System.IO;
 using System.Text.Json;
 
 public class CustomerIOManager{
-    private string path=@"..\TFLStore\wwwroot\files\Customers.json";
+    private string path=@"..\MyEComApp\wwwroot\files\Customers.json";
 
     public List<Customer> GetAll()
     {

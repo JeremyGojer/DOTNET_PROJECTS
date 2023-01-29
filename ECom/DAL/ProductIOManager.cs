@@ -5,7 +5,7 @@ using System.IO;
 using System.Text.Json;
 public class ProductIOManager
 {
-    private string path=@"..\TFLStore\wwwroot\files\Products.json";
+    private string path=@"..\MyEComApp\wwwroot\files\Products.json";
     //In case we need to get data from a different file pass it through the constructor
     public ProductIOManager(string path)
     {

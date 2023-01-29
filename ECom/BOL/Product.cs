@@ -10,7 +10,6 @@ public class Product{
     
     public Product(string name, string description, double unitPrice, int quantity, string imageUrl)
     {
-        Id = (new Random()).Next();
         Name = name;
         Description = description;
         UnitPrice = unitPrice;

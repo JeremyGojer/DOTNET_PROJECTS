@@ -18,6 +18,10 @@ public class ProductServices:IProductServices{
         return productManager.RemoveProduct(product);
     }
 
+    public bool UpdateProduct(Product product){
+        return productManager.UpdateProduct(product);
+    }
+
     public Product GetProductById(int id){
         var products = productManager.GetAll();
         foreach(var product in products){

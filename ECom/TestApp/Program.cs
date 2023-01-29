@@ -1,6 +1,8 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using BOL;
 using DAL;
+using BLL;
+using SAL;
 //using System.Data;
 //using MySql.Data.MySqlClient;
 Console.WriteLine("Hello, World!");
@@ -59,11 +61,27 @@ Console.WriteLine("Hello, World!");
 //         string imageUrl = reader["imageurl"].ToString();
 //         Product product = new Product(id,name,description,unitPrice,quantity,imageUrl);
 //         products.Add(product);
-
 //     }
 //     con.Close(); 
 ////////////////////////////////////////////////////////////////      
 // foreach (var product in products)
 // {
 //     Console.WriteLine(product);
-// }        
+// } 
+//////////////////////////////////////////////////////////////////
+//  TEST ENTITY FRAMEWORK FOR PRODUCT OBJECT  //
+//////////////////////////////////////////////////////////////////
+//   POPULATE DATA FROM THE FILE INTO DATABASE
+// ProductIOManager productIOManager = new ProductIOManager();
+//var products = productIOManager.GetAll();
+// ProductManager productManager = ProductManager.GetProductManager();
+// foreach(Product p in products){
+//     productManager.Insert(p);
+// }
+//////////////////////////////////////////////////////////////////
+//  SEE DATA FROM TABLE WITH ENTITY FRAMEWORK
+// var products = productManager.GetAll();
+// foreach(var product in products){
+//     Console.WriteLine(product);
+// } 
+///////////////////////////////////////////////////////////////////
