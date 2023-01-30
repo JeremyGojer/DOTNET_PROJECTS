@@ -11,7 +11,9 @@ public class DBEntityContext:DbContext{
 
 // To pass the conString to make connection with database
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder){
-        string conString = @"server=127.0.0.1;uid=Jeremy;password=Jeremy;database=flowersapp";
+        //string conString = @"server=127.0.0.1;uid=Jeremy;password=Jeremy;database=flowersapp";
+        string conString = @"server=192.168.10.109;uid=dac25;password=welcome;database=dac25";
+        optionsBuilder.EnableSensitiveDataLogging();
         optionsBuilder.UseMySQL(conString);
     }
 }

@@ -15,7 +15,9 @@
     </div>
     <div class="col-md-4">
         
-        <form action="/Products/AddToCart">
+        <form method="post" action="/Products/AddToCart">
+            <input type="hidden" value=@product.Id id="productId" name="productId"/>
+            <input type="hidden" value=@product.UnitPrice id="unitPrice" name="unitPrice"/>
             <table>
 
                 <tr>
@@ -32,7 +34,7 @@
                 </tr>
                 <tr></tr>
                 <td>Quantity</td>
-                <td>@product.Quantity</td>
+                <td><input type="number" max=@product.Quantity/ id="quantity" name="quantity"></td>
                 </tr>
                 <tr><td><button type="submit" class="btn btn-success" id="ToCart" name="ToCart">Add to Cart</button></td></tr>
 

@@ -4,29 +4,29 @@ using BOL;
 using BLL;
 
 public class CartServices{
-    private CartManager CartManager = CartManager.GetCartManager();
+    private CartManager cartManager = new CartManager();
 
     public List<Cart> GetAllCarts(){
-        return CartManager.GetAll();
+        return cartManager.GetAll();
     }
 
-    public bool AddToCart(Cart Cart){
-        return CartManager.AddToCart(Cart);
+    public bool AddToCart(Cart cart){
+        return cartManager.AddToCart(cart);
     }
 
-    public bool RemoveFromCart(Cart Cart){
-        return CartManager.RemoveFromCart(Cart);
+    public bool RemoveFromCart(Cart cart){
+        return cartManager.RemoveFromCart(cart);
     }
 
-    public bool UpdateToCart(Cart Cart){
-        return CartManager.UpdateToCart(Cart);
+    public bool UpdateToCart(Cart cart){
+        return cartManager.UpdateToCart(cart);
     }
 
     public Cart GetCartById(int id){
-        var Carts = CartManager.GetAll();
-        foreach(var Cart in Carts){
-            if(Cart.Id==id){
-                return Cart;
+        var carts = cartManager.GetAll();
+        foreach(var cart in carts){
+            if(cart.Id==id){
+                return cart;
             }
         }
         return null;

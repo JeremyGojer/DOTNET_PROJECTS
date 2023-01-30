@@ -69,17 +69,17 @@ Console.WriteLine("Hello, World!");
 //     Console.WriteLine(product);
 // } 
 //////////////////////////////////////////////////////////////////
-//  TEST ENTITY FRAMEWORK FOR PRODUCT OBJECT  //
+//  TEST ENTITY FRAMEWORK FOR PRODUCT OBJECT  // SUCCESS
 //////////////////////////////////////////////////////////////////
-//   POPULATE DATA FROM THE FILE INTO DATABASE
+//   POPULATE DATA FROM THE FILE INTO DATABASE  // SUCCESS
 // ProductIOManager productIOManager = new ProductIOManager();
-//var products = productIOManager.GetAll();
+// var products = productIOManager.GetAll();
 // ProductManager productManager = ProductManager.GetProductManager();
 // foreach(Product p in products){
 //     productManager.Insert(p);
 // }
 //////////////////////////////////////////////////////////////////
-//  SEE DATA FROM TABLE WITH ENTITY FRAMEWORK
+//  SEE DATA FROM TABLE WITH ENTITY FRAMEWORK  //  SUCCESS
 // var products = productManager.GetAll();
 // foreach(var product in products){
 //     Console.WriteLine(product);

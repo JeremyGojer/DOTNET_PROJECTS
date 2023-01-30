@@ -4,42 +4,33 @@ using DAL;
 
 public class CartManager{
     
-    public static CartManager instance = null;
     private DBEntityContext dBEntityContext = new DBEntityContext();
-    private CartManager(){
-
-    }
-    public static CartManager GetCartManager(){
-        if(instance == null){
-            instance = new CartManager();
-        }
-        return instance;
-    }
+    
 
     public List<Cart> GetAll(){
-        var Carts = from Cart in dBEntityContext.Carts select Cart;
-        return Carts.ToList<Cart>();
+        var carts = from cart in dBEntityContext.Carts select cart;
+        return carts.ToList<Cart>();
     }
 
-    public bool AddToCart(Cart Cart){
+    public bool AddToCart(Cart cart){
         bool status = false;
-        dBEntityContext.Carts.Add(Cart);
+        dBEntityContext.Carts.Add(cart);
         dBEntityContext.SaveChanges();
         status = true;
         return status;
     }
 
-    public bool RemoveFromCart(Cart Cart){
+    public bool RemoveFromCart(Cart cart){
         bool status = false;
-        dBEntityContext.Carts.Remove(Cart);
+        dBEntityContext.Carts.Remove(cart);
         dBEntityContext.SaveChanges();
         status = true;
         return status;
     }
 
-    public bool UpdateToCart(Cart Cart){
+    public bool UpdateToCart(Cart cart){
         bool status = false;
-        dBEntityContext.Carts.Update(Cart);
+        dBEntityContext.Carts.Update(cart);
         dBEntityContext.SaveChanges();
         status = true;
         return status;

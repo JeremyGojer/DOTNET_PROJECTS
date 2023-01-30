@@ -1,7 +1,9 @@
 ﻿@using BOL
 @{
     ViewData["Title"] = "Home Page";
-    
+    List<Cart> cart = ViewData["cart"] as List<Cart>;
+        int count = 0;
+        double sum = 0;
 }
 
 <div>
@@ -10,9 +12,32 @@
     </div>
     <div>
         My items will be here
+        <table border='2' class="table table-striped">
+        <tr>
+            <th>Sr no</th>
+            <th>Item Name</th>
+            <th>Quantity</th>
+            <th>UnitPrice</th>
+            <th>Total</th>
+            <th>Modify</th>
+        </tr>
+        @foreach (var c in cart)
+        { var total = c.Quantity * c.UnitPrice;
+            count++;
+            sum += total;
+            <tr>
+                    <td>@count</td>
+                    <td>@c.ProductId</td>
+                    <td>@c.Quantity</td>
+                    <td>@c.UnitPrice</td>
+                    <td>@total</td>
+                    <td><a href="ShoppingCart/Edit/@c.Id">EDIT</a>/<a href="ShoppingCart/Delete/@c.Id">DELETE</a></td>
+            </tr>
+        }
+    </table>
     </div>
     <div class="btn-group" role="group" aria-label="Basic example">
-        <button type="button" class="btn btn-primary">To Payment</button>
+        <button type="button" class="btn btn-primary">| Rs : @sum | To Payment </button>
         <button type="button" class="btn btn-primary">Back To Products</button>
         
 </div>

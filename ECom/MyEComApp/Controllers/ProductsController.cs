@@ -11,11 +11,8 @@ public class ProductsController : Controller
     private readonly ILogger<ProductsController> _logger;
     private IProductServices productServices = new ProductServices();
 
-
-    //parameterized constructor is always used for Dependency Injection
-    //1.Constructor DI
-    //2.Property DI
-    //3.Method DI
+    private CartServices cartServices = new CartServices();
+   
     public ProductsController(ILogger<ProductsController> logger)
     {
         _logger = logger;
@@ -40,10 +37,16 @@ public class ProductsController : Controller
     public IActionResult Insert(){
         return View();
     }
-    public IActionResult AddToCart(){
-        //shoppingCart.AddToCart();
+
+    [HttpPost]
+    public IActionResult AddToCart(int productId, int quantity,double unitPrice){
+        cartServices.AddToCart(new Cart(){UserId=1,
+                                          ProductId=productId,
+                                          Quantity=quantity,
+                                          UnitPrice=unitPrice});
         return RedirectToAction("Index", "Products");
     }
+
     [HttpPost]
     public IActionResult Insert(string name, string description,double unitPrice,int quantity,string imageUrl){
         bool status = productServices.AddProduct(new Product(name,description,unitPrice,quantity,imageUrl));

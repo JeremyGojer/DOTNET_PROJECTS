@@ -9,7 +9,7 @@ namespace TFLStore.Controllers;
 public class ShoppingCartController : Controller
 {
     private readonly ILogger<ShoppingCartController> _logger;
-    private IProductServices productServices = new ProductServices();
+    private CartServices cartServices = new CartServices();
 
 
     public ShoppingCartController(ILogger<ShoppingCartController> logger)
@@ -20,6 +20,8 @@ public class ShoppingCartController : Controller
     [HttpGet]
     public IActionResult Index()
     {
+        List<Cart> cart = cartServices.GetAllCarts();
+        this.ViewData["cart"] = cart;
         return View();
     }
     public IActionResult AddToCart(){
