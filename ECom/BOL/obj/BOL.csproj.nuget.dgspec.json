@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\iet\\Desktop\\reopo\\DOTNET_PROJECTS\\ECom\\BOL\\BOL.csproj": {}
+    "C:\\Users\\IET\\Desktop\\New folder\\DOTNET_PROJECTS\\ECom\\BOL\\BOL.csproj": {}
   },
   "projects": {
-    "C:\\Users\\iet\\Desktop\\reopo\\DOTNET_PROJECTS\\ECom\\BOL\\BOL.csproj": {
+    "C:\\Users\\IET\\Desktop\\New folder\\DOTNET_PROJECTS\\ECom\\BOL\\BOL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\iet\\Desktop\\reopo\\DOTNET_PROJECTS\\ECom\\BOL\\BOL.csproj",
+        "projectUniqueName": "C:\\Users\\IET\\Desktop\\New folder\\DOTNET_PROJECTS\\ECom\\BOL\\BOL.csproj",
         "projectName": "BOL",
-        "projectPath": "C:\\Users\\iet\\Desktop\\reopo\\DOTNET_PROJECTS\\ECom\\BOL\\BOL.csproj",
-        "packagesPath": "C:\\Users\\iet\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\iet\\Desktop\\reopo\\DOTNET_PROJECTS\\ECom\\BOL\\obj\\",
+        "projectPath": "C:\\Users\\IET\\Desktop\\New folder\\DOTNET_PROJECTS\\ECom\\BOL\\BOL.csproj",
+        "packagesPath": "C:\\Users\\IET\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\IET\\Desktop\\New folder\\DOTNET_PROJECTS\\ECom\\BOL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\iet\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\IET\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"

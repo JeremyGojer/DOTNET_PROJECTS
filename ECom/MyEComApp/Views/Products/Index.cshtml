@@ -12,29 +12,29 @@ var products = productServices.GetAllProducts(); *@
 
     </div>
     <hr />
-    <h3><a href="ShoppingCart">To Cart</a></h3>
+    <h3><a href="/ShoppingCart">To Cart</a></h3>
     <table border='2' class="table table-striped">
         <tr>
             <th></th>
-            <th><a href="Products/SortByName">Sort by Name</a></th>
+            <th><a href="/Products/SortByName">Sort by Name</a></th>
             <th></th>
-            <th><a href="Products/SortByPrice">Sort by Price</a></th>
+            <th><a href="/Products/SortByPrice">Sort by Price</a></th>
             <th>Changes</th>
         </tr>
         @foreach (var product in products)
         {
             <tr>
                     <td><img src=@product.ImageUrl width=60 height=60></td>
-                    <td><a href="Products/Details/@product.Id">@product.Name</a></td>
+                    <td><a href="/Products/Details/@product.Id">@product.Name</a></td>
                     <td><a href="http://www.google.com/search?q=@product.Name&source=lnms&tbm=isch&sa=X&ved=2ahUKEwiK_Mmp09_8AhWVR3wKHXF-DlwQ_AUoAXoECAEQAw&biw=1024&bih=657&dpr=1">Google</a>
                     </td>
                     <td>@product.UnitPrice</td>
                     
-                    <td><a href="Products/Edit/@product.Id">EDIT</a>/<a href="Products/Delete/@product.Id">DELETE</a></td>
+                    <td><a href="/Products/Edit/@product.Id">EDIT</a>/<a href="/Products/Delete/@product.Id">DELETE</a></td>
             </tr>
         }
     </table>
     <hr />
-    <h3><a href="Products/Insert">Add More Products</a></h3>
+    <h3><a href="/Products/Insert">Add More Products</a></h3>
 
 </div>

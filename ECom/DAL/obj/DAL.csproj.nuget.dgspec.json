@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\iet\\Desktop\\reopo\\DOTNET_PROJECTS\\ECom\\DAL\\DAL.csproj": {}
+    "C:\\Users\\IET\\Desktop\\New folder\\DOTNET_PROJECTS\\ECom\\DAL\\DAL.csproj": {}
   },
   "projects": {
-    "C:\\Users\\iet\\Desktop\\reopo\\DOTNET_PROJECTS\\ECom\\BOL\\BOL.csproj": {
+    "C:\\Users\\IET\\Desktop\\New folder\\DOTNET_PROJECTS\\ECom\\BOL\\BOL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\iet\\Desktop\\reopo\\DOTNET_PROJECTS\\ECom\\BOL\\BOL.csproj",
+        "projectUniqueName": "C:\\Users\\IET\\Desktop\\New folder\\DOTNET_PROJECTS\\ECom\\BOL\\BOL.csproj",
         "projectName": "BOL",
-        "projectPath": "C:\\Users\\iet\\Desktop\\reopo\\DOTNET_PROJECTS\\ECom\\BOL\\BOL.csproj",
-        "packagesPath": "C:\\Users\\iet\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\iet\\Desktop\\reopo\\DOTNET_PROJECTS\\ECom\\BOL\\obj\\",
+        "projectPath": "C:\\Users\\IET\\Desktop\\New folder\\DOTNET_PROJECTS\\ECom\\BOL\\BOL.csproj",
+        "packagesPath": "C:\\Users\\IET\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\IET\\Desktop\\New folder\\DOTNET_PROJECTS\\ECom\\BOL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\iet\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\IET\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -57,17 +57,17 @@
         }
       }
     },
-    "C:\\Users\\iet\\Desktop\\reopo\\DOTNET_PROJECTS\\ECom\\DAL\\DAL.csproj": {
+    "C:\\Users\\IET\\Desktop\\New folder\\DOTNET_PROJECTS\\ECom\\DAL\\DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\iet\\Desktop\\reopo\\DOTNET_PROJECTS\\ECom\\DAL\\DAL.csproj",
+        "projectUniqueName": "C:\\Users\\IET\\Desktop\\New folder\\DOTNET_PROJECTS\\ECom\\DAL\\DAL.csproj",
         "projectName": "DAL",
-        "projectPath": "C:\\Users\\iet\\Desktop\\reopo\\DOTNET_PROJECTS\\ECom\\DAL\\DAL.csproj",
-        "packagesPath": "C:\\Users\\iet\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\iet\\Desktop\\reopo\\DOTNET_PROJECTS\\ECom\\DAL\\obj\\",
+        "projectPath": "C:\\Users\\IET\\Desktop\\New folder\\DOTNET_PROJECTS\\ECom\\DAL\\DAL.csproj",
+        "packagesPath": "C:\\Users\\IET\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\IET\\Desktop\\New folder\\DOTNET_PROJECTS\\ECom\\DAL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\iet\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\IET\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -79,8 +79,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\iet\\Desktop\\reopo\\DOTNET_PROJECTS\\ECom\\BOL\\BOL.csproj": {
-                "projectPath": "C:\\Users\\iet\\Desktop\\reopo\\DOTNET_PROJECTS\\ECom\\BOL\\BOL.csproj"
+              "C:\\Users\\IET\\Desktop\\New folder\\DOTNET_PROJECTS\\ECom\\BOL\\BOL.csproj": {
+                "projectPath": "C:\\Users\\IET\\Desktop\\New folder\\DOTNET_PROJECTS\\ECom\\BOL\\BOL.csproj"
               }
             }
           }

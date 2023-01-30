@@ -1,7 +1,8 @@
-﻿@using BOL
+@using BOL
 @{
     ViewData["Title"] = "Home Page";
     List<Cart> cart = ViewData["cart"] as List<Cart>;
+      Cart cartitem = ViewData["cartitem"] as Cart;
         int count = 0;
         double sum = 0;
 }
@@ -19,27 +20,33 @@
             <th>Quantity</th>
             <th>UnitPrice</th>
             <th>Total</th>
-            <th>Modify</th>
         </tr>
         @foreach (var c in cart)
         { var total = c.Quantity * c.UnitPrice;
             count++;
             sum += total;
+            if(cartitem.ProductId == c.ProductId){
+              <form method="post" action="/ShoppingCart/Update" >
+              <input type="hidden" value=@c.Id id="id" name="id"/>
+                    <td>@count</td>
+                    <td>@c.ProductId</td>
+                    <td><input type="number" value=@c.Quantity id="quantity" name="quantity"/></td>
+                    <td>@c.UnitPrice</td>
+                    <td><button action="submit" class="btn btn-primary" id="btn" name="btn">Update</button></td>
+              </form>
+            }
+            else{
             <tr>
                     <td>@count</td>
                     <td>@c.ProductId</td>
                     <td>@c.Quantity</td>
                     <td>@c.UnitPrice</td>
                     <td>@total</td>
-                    <td><a href="/ShoppingCart/Edit/@c.Id">EDIT</a>/<a href="/ShoppingCart/Delete/@c.Id">DELETE</a></td>
+                    
             </tr>
+            }
         }
     </table>
     </div>
-    <div class="btn-group" role="group" aria-label="Basic example">
-        <button type="button" class="btn btn-primary">| Rs : @sum | To Payment </button>
-        <a href="Products/"><button type="button" class="btn btn-primary">Back To Products</button></a>
-        
-</div>
 
 </div>
