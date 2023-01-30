@@ -16,11 +16,16 @@ public class AccountController : Controller{
     }
     [HttpPost]
     public IActionResult Login(string email, string password){
-        bool status = userServices.Authenticate(email,password);
-        if(status){
+        string userid = userServices.Authenticate(email,password);
+        if(userid != ""){
+            HttpContext.Session.SetString("Current_User",userid);
             return RedirectToAction("Index", "Products");
         }
         return View();
+    }
+    public IActionResult LogOut(){
+        HttpContext.Session.Remove("Current_User");
+        return RedirectToAction("Login", "Account");;
     }
     public IActionResult Register(){
         return View();

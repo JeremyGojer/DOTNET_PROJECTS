@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\IET\\Desktop\\New folder\\DOTNET_PROJECTS\\ECom\\DAL\\DAL.csproj": {}
+    "D:\\GIT REPO\\DOTNET_PROJECTS\\ECom\\DAL\\DAL.csproj": {}
   },
   "projects": {
-    "C:\\Users\\IET\\Desktop\\New folder\\DOTNET_PROJECTS\\ECom\\BOL\\BOL.csproj": {
+    "D:\\GIT REPO\\DOTNET_PROJECTS\\ECom\\BOL\\BOL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\IET\\Desktop\\New folder\\DOTNET_PROJECTS\\ECom\\BOL\\BOL.csproj",
+        "projectUniqueName": "D:\\GIT REPO\\DOTNET_PROJECTS\\ECom\\BOL\\BOL.csproj",
         "projectName": "BOL",
-        "projectPath": "C:\\Users\\IET\\Desktop\\New folder\\DOTNET_PROJECTS\\ECom\\BOL\\BOL.csproj",
-        "packagesPath": "C:\\Users\\IET\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\IET\\Desktop\\New folder\\DOTNET_PROJECTS\\ECom\\BOL\\obj\\",
+        "projectPath": "D:\\GIT REPO\\DOTNET_PROJECTS\\ECom\\BOL\\BOL.csproj",
+        "packagesPath": "C:\\Users\\jerem\\.nuget\\packages\\",
+        "outputPath": "D:\\GIT REPO\\DOTNET_PROJECTS\\ECom\\BOL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\IET\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\jerem\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -57,17 +57,17 @@
         }
       }
     },
-    "C:\\Users\\IET\\Desktop\\New folder\\DOTNET_PROJECTS\\ECom\\DAL\\DAL.csproj": {
+    "D:\\GIT REPO\\DOTNET_PROJECTS\\ECom\\DAL\\DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\IET\\Desktop\\New folder\\DOTNET_PROJECTS\\ECom\\DAL\\DAL.csproj",
+        "projectUniqueName": "D:\\GIT REPO\\DOTNET_PROJECTS\\ECom\\DAL\\DAL.csproj",
         "projectName": "DAL",
-        "projectPath": "C:\\Users\\IET\\Desktop\\New folder\\DOTNET_PROJECTS\\ECom\\DAL\\DAL.csproj",
-        "packagesPath": "C:\\Users\\IET\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\IET\\Desktop\\New folder\\DOTNET_PROJECTS\\ECom\\DAL\\obj\\",
+        "projectPath": "D:\\GIT REPO\\DOTNET_PROJECTS\\ECom\\DAL\\DAL.csproj",
+        "packagesPath": "C:\\Users\\jerem\\.nuget\\packages\\",
+        "outputPath": "D:\\GIT REPO\\DOTNET_PROJECTS\\ECom\\DAL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\IET\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\jerem\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -79,8 +79,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\IET\\Desktop\\New folder\\DOTNET_PROJECTS\\ECom\\BOL\\BOL.csproj": {
-                "projectPath": "C:\\Users\\IET\\Desktop\\New folder\\DOTNET_PROJECTS\\ECom\\BOL\\BOL.csproj"
+              "D:\\GIT REPO\\DOTNET_PROJECTS\\ECom\\BOL\\BOL.csproj": {
+                "projectPath": "D:\\GIT REPO\\DOTNET_PROJECTS\\ECom\\BOL\\BOL.csproj"
               }
             }
           }

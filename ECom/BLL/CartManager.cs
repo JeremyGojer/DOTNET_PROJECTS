@@ -14,6 +14,14 @@ public class CartManager{
 
     public bool AddToCart(Cart cart){
         bool status = false;
+        // If same item is added in cart again, updates its quantity by the new amount // TO BE DECIDED
+        List<Cart> carts = GetAll();
+        foreach(var icart in carts){
+            if(icart.ProductId == cart.ProductId){
+                cart.Quantity += icart.Quantity;
+                RemoveFromCart(icart);    
+            }
+        }
         dBEntityContext.Carts.Add(cart);
         dBEntityContext.SaveChanges();
         status = true;

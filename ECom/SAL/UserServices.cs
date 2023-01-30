@@ -10,14 +10,14 @@ public class UserServices{
         userList = customerManager.GetAll();
     }
     
-    public bool Authenticate(string email,string password){
+    public string Authenticate(string email,string password){
         foreach(var user in userList){
             if(user.Email == email && user.Password == password)
             {
-                return true;
+                return user.Id+"";
             }
         }
-        return false;
+        return "";
     }
 
     public bool Register(string firstName,string lastName,string email,string password,string contactNumber){
@@ -35,6 +35,15 @@ public class UserServices{
 
     public List<Customer> DisplayAllUsers(){
         return userList;
+    }
+
+    public Customer FindUserById(int id){
+        foreach(var user in userList){
+            if(user.Id == id){
+                return user;
+            }
+        }
+        return null;
     }
 
     

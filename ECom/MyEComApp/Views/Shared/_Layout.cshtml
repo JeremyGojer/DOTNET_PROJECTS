@@ -1,4 +1,6 @@
-﻿<!DOCTYPE html>
+﻿@using BOL
+@using SAL
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8" />
@@ -31,9 +33,24 @@
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Contact">Contact</a>
                         </li>
+                        @{
+                            // Use Context instead of HttpContext To Access the session in pages
+                            string current_userid = Context.Session.GetString("Current_User");
+                            if(current_userid == null){
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Account" asp-action="Login">Login</a>
                         </li>
+                        }
+                        else{
+                        
+                            UserServices userServices = new UserServices();
+                            Customer current_user = userServices.FindUserById(int.Parse(current_userid));
+
+                        <li class="nav-item">
+                             <a class="nav-link text-dark" asp-area="" asp-controller="Account" asp-action="LogOut">LogOut(@current_user.FirstName)</a>
+                        </li>
+                            }
+                        }
                     </ul>
                 </div>
             </div>
