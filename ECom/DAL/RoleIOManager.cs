@@ -53,7 +53,7 @@ public class RoleIOManager
         try
         {
             List<Role> roles = Load(this.path);
-            Roles.Add(role);
+            roles.Add(role);
             Save(this.path, roles);
             status = true;
             return status;

@@ -6,9 +6,6 @@ public class RoleManager{
     public static RoleManager instance = null;
     private RoleIOManager roleIOManager= new RoleIOManager();
     
-    private RoleManager(){
-
-    }
     public static RoleManager GetRoleManager(){
         
         if(instance==null){
@@ -21,13 +18,16 @@ public class RoleManager{
         return roleIOManager.GetAll();
     }
 
-    public bool AddRole(Role Role){
+    public bool AddToRole(Role Role){
         return roleIOManager.AddRole(Role);
     }
 
     
-    public bool RemoveRole(Role Role){
-        return RoleIOManager.RemoveRole(Role);
+    public Role GetRoleById(int id){
+        List<Role> roles = GetAll();
+        Role role = roles.FirstOrDefault(role => role.Id == id);
+        return role;
+
     }
 
 }

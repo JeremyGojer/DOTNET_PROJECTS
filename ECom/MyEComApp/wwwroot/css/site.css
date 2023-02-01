@@ -1,5 +1,6 @@
 html {
   font-size: 14px;
+
 }
 
 @media (min-width: 768px) {
@@ -15,8 +16,24 @@ html {
 html {
   position: relative;
   min-height: 100%;
+  
 }
 
 body {
   margin-bottom: 60px;
+}
+.category-image {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.bottom-right {
+  position: absolute;
+  bottom: 5%;
+  right: 10%;
+  color: white;
+}
+/* For the main background for all pages */
+.main{
+  background-color: rgb(201, 176, 176);
 }

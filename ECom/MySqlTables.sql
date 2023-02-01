@@ -3,3 +3,5 @@ CREATE TABLE products(id int NOT NULL AUTO_INCREMENT, name varchar(30),descripti
 
 DROP TABLE IF EXISTS carts;
 CREATE TABLE carts(id int NOT NULL AUTO_INCREMENT, userid int, productid int, quantity int, unitprice double, PRIMARY KEY(id), FOREIGN KEY(productid) REFERENCES products(id));
+
+DROP TABLE IF EXISTS roles;

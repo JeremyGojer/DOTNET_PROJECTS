@@ -9,6 +9,7 @@ public class DBEntityContext:DbContext{
     public DbSet<Product> Products {get;set;}
     public DbSet<Cart> Carts {get;set;}
     public DbSet<Role> Roles {get;set;}
+    public DbSet<Role> Categories {get;set;}
 
 // To pass the conString to make connection with database
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder){

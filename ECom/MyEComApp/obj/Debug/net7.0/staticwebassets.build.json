@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "hx9UmDMfZCpEJpzCQDopCIZE7lpr19KgQsAuSNP4ULw=",
+  "Hash": "gupObBlCKlbtIK/kdn+WGJwOOGaxWGTpx5mpBHdmcN8=",
   "Source": "MyEComApp",
   "BasePath": "_content/MyEComApp",
   "Mode": "Default",
@@ -85,6 +85,23 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
+      "Identity": "D:\\GIT REPO\\DOTNET_PROJECTS\\ECom\\MyEComApp\\wwwroot\\files\\Categories.json",
+      "SourceId": "MyEComApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\GIT REPO\\DOTNET_PROJECTS\\ECom\\MyEComApp\\wwwroot\\",
+      "BasePath": "_content/MyEComApp",
+      "RelativePath": "files/Categories.json",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\files\\Categories.json"
+    },
+    {
       "Identity": "D:\\GIT REPO\\DOTNET_PROJECTS\\ECom\\MyEComApp\\wwwroot\\files\\Customers.json",
       "SourceId": "MyEComApp",
       "SourceType": "Discovered",
@@ -117,6 +134,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\files\\Products.json"
+    },
+    {
+      "Identity": "D:\\GIT REPO\\DOTNET_PROJECTS\\ECom\\MyEComApp\\wwwroot\\files\\Roles.json",
+      "SourceId": "MyEComApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\GIT REPO\\DOTNET_PROJECTS\\ECom\\MyEComApp\\wwwroot\\",
+      "BasePath": "_content/MyEComApp",
+      "RelativePath": "files/Roles.json",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\files\\Roles.json"
     },
     {
       "Identity": "D:\\GIT REPO\\DOTNET_PROJECTS\\ECom\\MyEComApp\\wwwroot\\images\\Gerbera.jpg",

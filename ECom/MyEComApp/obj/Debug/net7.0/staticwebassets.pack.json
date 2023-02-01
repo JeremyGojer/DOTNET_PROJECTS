@@ -13,12 +13,20 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "D:\\GIT REPO\\DOTNET_PROJECTS\\ECom\\MyEComApp\\wwwroot\\files\\Categories.json",
+      "PackagePath": "staticwebassets\\files\\Categories.json"
+    },
+    {
       "Id": "D:\\GIT REPO\\DOTNET_PROJECTS\\ECom\\MyEComApp\\wwwroot\\files\\Customers.json",
       "PackagePath": "staticwebassets\\files\\Customers.json"
     },
     {
       "Id": "D:\\GIT REPO\\DOTNET_PROJECTS\\ECom\\MyEComApp\\wwwroot\\files\\Products.json",
       "PackagePath": "staticwebassets\\files\\Products.json"
+    },
+    {
+      "Id": "D:\\GIT REPO\\DOTNET_PROJECTS\\ECom\\MyEComApp\\wwwroot\\files\\Roles.json",
+      "PackagePath": "staticwebassets\\files\\Roles.json"
     },
     {
       "Id": "D:\\GIT REPO\\DOTNET_PROJECTS\\ECom\\MyEComApp\\wwwroot\\images\\Gerbera.jpg",
