@@ -94,3 +94,19 @@ Console.WriteLine("Hello, World!");
 //     categoryIOManager.AddCategory(cat);
 // }
 ///////////////////////////////////////////////////////////////////
+CartServices cartServices = new CartServices();
+List<Cart> carts = cartServices.GetAllCarts(518733689);
+foreach(var c in carts){
+    Console.WriteLine(c.Id);
+}
+var cartitem = cartServices.GetCartById(15);
+List<Cart> cart = cartServices.GetAllCarts(518733689);
+List<CartView> cartview = cartServices.GetAllCartsView(518733689);
+foreach(var c in cartview){
+    Console.WriteLine(cartitem.Id + "-");
+    Console.WriteLine(c.Id);
+    if(cartitem.Id == c.Id){
+        Console.WriteLine("Works");
+    }
+}
+

@@ -8,19 +8,19 @@
     "net7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\iet\\.nuget\\packages\\": {}
+    "C:\\Users\\jerem\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\iet\\Desktop\\reopo\\DOTNET_PROJECTS\\ECom\\BOL\\BOL.csproj",
+      "projectUniqueName": "D:\\GIT REPO\\DOTNET_PROJECTS\\ECom\\BOL\\BOL.csproj",
       "projectName": "BOL",
-      "projectPath": "C:\\Users\\iet\\Desktop\\reopo\\DOTNET_PROJECTS\\ECom\\BOL\\BOL.csproj",
-      "packagesPath": "C:\\Users\\iet\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\iet\\Desktop\\reopo\\DOTNET_PROJECTS\\ECom\\BOL\\obj\\",
+      "projectPath": "D:\\GIT REPO\\DOTNET_PROJECTS\\ECom\\BOL\\BOL.csproj",
+      "packagesPath": "C:\\Users\\jerem\\.nuget\\packages\\",
+      "outputPath": "D:\\GIT REPO\\DOTNET_PROJECTS\\ECom\\BOL\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\iet\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\jerem\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"

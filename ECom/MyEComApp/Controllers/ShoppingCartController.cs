@@ -23,14 +23,14 @@ public class ShoppingCartController : Controller
         // If user is logged in, then allow access to cart
         string current_userid = HttpContext.Session.GetString("Current_User");
         if(current_userid != null){
-        List<Cart> cart = cartServices.GetAllCarts(int.Parse(current_userid));
+        List<CartView> cart = cartServices.GetAllCartsView(int.Parse(current_userid));
         this.ViewData["cart"] = cart;
         return View();
         }
         return RedirectToAction("Login","Account");
     }
     public IActionResult Delete(int id){
-        cartServices.RemoveFromCart(cartServices.GetCartById(id));
+        cartServices.RemoveFromCart(id);
          return RedirectToAction("Index", "ShoppingCart");
     }
 
@@ -38,8 +38,10 @@ public class ShoppingCartController : Controller
         string current_userid = HttpContext.Session.GetString("Current_User");
         var cartitem = cartServices.GetCartById(id);
         List<Cart> cart = cartServices.GetAllCarts(int.Parse(current_userid));
+        List<CartView> cartview = cartServices.GetAllCartsView(int.Parse(current_userid));
         this.ViewData["cart"] = cart;
         this.ViewData["cartitem"] = cartitem;
+        this.ViewData["cartview"] = cartview;
         return View();
     }
 

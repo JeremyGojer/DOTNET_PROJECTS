@@ -1,7 +1,8 @@
 @using BOL
 @{
     ViewData["Title"] = "Home Page";
-    List<Cart> cart = ViewData["cart"] as List<Cart>;
+    List<CartView> cart = ViewData["cart"] as List<CartView>;
+    List<CartView> cartview = ViewData["cartview"] as List<CartView>;
       Cart cartitem = ViewData["cartitem"] as Cart;
         int count = 0;
         double sum = 0;
@@ -21,15 +22,15 @@
             <th>UnitPrice</th>
             <th>Total</th>
         </tr>
-        @foreach (var c in cart)
+        @foreach (var c in cartview)
         { var total = c.Quantity * c.UnitPrice;
             count++;
             sum += total;
-            if(cartitem.ProductId == c.ProductId){
+            if(cartitem.Id == c.Id){
               <form method="post" action="/ShoppingCart/Update" >
               <input type="hidden" value=@c.Id id="id" name="id"/>
                     <td>@count</td>
-                    <td>@c.ProductId</td>
+                    <td>@c.ProductName</td>
                     <td><input type="number" value=@c.Quantity id="quantity" name="quantity"/></td>
                     <td>@c.UnitPrice</td>
                     <td><button action="submit" class="btn btn-primary" id="btn" name="btn">Update</button></td>
@@ -38,7 +39,7 @@
             else{
             <tr>
                     <td>@count</td>
-                    <td>@c.ProductId</td>
+                    <td>@c.ProductName</td>
                     <td>@c.Quantity</td>
                     <td>@c.UnitPrice</td>
                     <td>@total</td>

@@ -48,8 +48,7 @@ public class ProductsController : Controller
         if(current_userid != null){
             cartServices.AddToCart(new Cart(){UserId=int.Parse(current_userid),
                                               ProductId=productId,
-                                              Quantity=quantity,
-                                              UnitPrice=unitPrice});
+                                              Quantity=quantity});
         return RedirectToAction("Index", "Products");
         }
         return RedirectToAction("Login","Account");

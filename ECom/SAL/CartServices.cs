@@ -13,13 +13,16 @@ public class CartServices{
     public List<Cart> GetAllCarts(int userid){
         return cartManager.GetAll(userid);
     }
+    public List<CartView> GetAllCartsView(int userid){
+        return cartManager.GetAllView(userid);
+    }
 
     public bool AddToCart(Cart cart){
         return cartManager.AddToCart(cart);
     }
 
-    public bool RemoveFromCart(Cart cart){
-        return cartManager.RemoveFromCart(cart);
+    public bool RemoveFromCart(int id){
+        return cartManager.RemoveFromCart(GetCartById(id));
     }
 
     public bool UpdateToCart(Cart cart){
@@ -28,12 +31,13 @@ public class CartServices{
 
     public Cart GetCartById(int id){
         var carts = cartManager.GetAll();
-        foreach(var cart in carts){
+        foreach(Cart cart in carts){
             if(cart.Id==id){
                 return cart;
             }
         }
         return null;
     }
+    
 
 }

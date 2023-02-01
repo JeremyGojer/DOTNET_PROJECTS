@@ -1,7 +1,7 @@
 ﻿@using BOL
 @{
     ViewData["Title"] = "Home Page";
-    List<Cart> cart = ViewData["cart"] as List<Cart>;
+    List<CartView> cart = ViewData["cart"] as List<CartView>;
         int count = 0;
         double sum = 0;
 }
@@ -21,13 +21,13 @@
             <th>Total</th>
             <th>Modify</th>
         </tr>
-        @foreach (var c in cart)
+        @foreach (CartView c in cart)
         { var total = c.Quantity * c.UnitPrice;
             count++;
             sum += total;
             <tr>
-                    <td>@count</td>
-                    <td>@c.ProductId</td>
+                    <td>@count @c.Id</td>
+                    <td>@c.ProductName</td>
                     <td>@c.Quantity</td>
                     <td>@c.UnitPrice</td>
                     <td>@total</td>

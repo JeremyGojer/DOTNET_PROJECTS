@@ -15,6 +15,19 @@ public class CartManager{
         var carts = from cart in dBEntityContext.Carts where (cart.UserId == userid) select cart;
         return carts.ToList<Cart>();
     }
+    // The join cart with view
+    public List<CartView> GetAllView(int userid){
+        var carts = from cart in dBEntityContext.Carts join 
+                         product in dBEntityContext.Products
+                         on cart.ProductId equals product.Id 
+                         where (cart.UserId == userid) 
+                         select new CartView{Id=cart.Id,
+                                             UserId=cart.UserId,
+                                             ProductName=product.Name,
+                                             Quantity=cart.Quantity,
+                                             UnitPrice=product.UnitPrice};
+        return carts.ToList<CartView>();
+    }
 
     public bool AddToCart(Cart cart){
         bool status = false;
@@ -39,6 +52,7 @@ public class CartManager{
         status = true;
         return status;
     }
+    
 
     public bool UpdateToCart(Cart cart){
         bool status = false;
