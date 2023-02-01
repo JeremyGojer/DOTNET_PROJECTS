@@ -10,6 +10,7 @@ public class ProductsController : Controller
 {
     private readonly ILogger<ProductsController> _logger;
     private IProductServices productServices = new ProductServices();
+    private CategoryServices categoryServices = new CategoryServices();
 
     private CartServices cartServices = new CartServices();
    
@@ -19,9 +20,9 @@ public class ProductsController : Controller
     }
 
     [HttpGet]
-    public IActionResult Index()
-    {
-        var products = productServices.GetAllProducts();
+    public IActionResult Index([FromQuery(Name="id")] int id)
+    {   //int id = 1;
+        var products = productServices.GetAllProducts(id);
         this.ViewData["products"] = products;
         return View();
     }
@@ -35,6 +36,8 @@ public class ProductsController : Controller
     }
 
     public IActionResult Insert(){
+        List<Category> categories = categoryServices.GetAllCategories();
+        ViewData["categories"] = categories;
         return View();
     }
 
@@ -53,8 +56,13 @@ public class ProductsController : Controller
     }
 
     [HttpPost]
-    public IActionResult Insert(string name, string description,double unitPrice,int quantity,string imageUrl){
-        bool status = productServices.AddProduct(new Product(name,description,unitPrice,quantity,imageUrl));
+    public IActionResult Insert(string name, string description,double unitPrice,int quantity,string imageUrl, int categoryId){
+        bool status = productServices.AddProduct(new Product(){Name=name,
+                                                               Description=description,
+                                                               UnitPrice=unitPrice,
+                                                               Quantity=quantity,
+                                                               ImageUrl=imageUrl,
+                                                               CategoryId=categoryId});
         if(status){
             Console.WriteLine("New Item Added");
             return RedirectToAction("Index", "Products");

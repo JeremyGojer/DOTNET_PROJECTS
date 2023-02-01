@@ -4,6 +4,7 @@ using BOL;
 public interface IProductServices{
 
     public List<Product> GetAllProducts();
+    public List<Product> GetAllProducts(int id);
 
     public bool AddProduct(Product product);
 

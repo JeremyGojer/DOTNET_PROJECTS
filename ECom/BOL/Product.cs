@@ -7,6 +7,7 @@ public class Product{
     public double UnitPrice {get;set;}
     public int Quantity {get;set;}
     public string ImageUrl {get;set;}
+    public int CategoryId {get;set;}
     
     public Product(string name, string description, double unitPrice, int quantity, string imageUrl)
     {

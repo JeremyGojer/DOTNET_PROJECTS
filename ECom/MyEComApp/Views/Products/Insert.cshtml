@@ -4,6 +4,7 @@
     @* IProductServices productServices = new ProductServices();
     var products = productServices.GetAllProducts(); *@
     List<Product> products = ViewData["products"] as List<Product>;
+    List<Category> categories = ViewData["categories"] as List<Category>;
 }
 <h1>Add Product</h1>
 <hr/>
@@ -24,9 +25,18 @@
     <label for="quantity">Quantity:</label>
     <input type="quantity" class="form-control" id="quantity" name="quantity">
   </div>
-  <div class="form-group">
-    <label for="imageUrl">Image Url:</label>
-    <input type="imageUrl" class="form-control" id="imageUrl" name="imageUrl">
+  <label for="imageUrl">Image Url:</label>
+  <div class="row">
+    <div class="col">
+      <input type="imageUrl" class="form-control" id="imageUrl" name="imageUrl">
+    </div>
+    <div class="col">
+      <select class="form-select" id="categoryId" name="categoryId">
+        @foreach(Category category in categories){
+            <option value=@category.Id>@category.Title</option>
+        }
+      </select>
+    </div>
   </div>
   <button type="submit" class="btn btn-success">Add to Catalog</button>
   

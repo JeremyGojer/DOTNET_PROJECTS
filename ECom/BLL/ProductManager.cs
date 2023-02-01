@@ -44,6 +44,10 @@ public class ProductManager{
         var products = from product in dBEntityContext.Products select product;
         return products.ToList<Product>();
     }
+    public List<Product> GetAll(int id){
+        var products = from product in dBEntityContext.Products where (product.CategoryId == id) select product;
+        return products.ToList<Product>();
+    }
 
     public bool AddProduct(Product product){
         bool status = false;

@@ -9,81 +9,81 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = MyEComApp
 build_property.RootNamespace = MyEComApp
-build_property.ProjectDir = D:\GIT REPO\DOTNET_PROJECTS\ECom\MyEComApp\
+build_property.ProjectDir = C:\Users\iet\Desktop\reopo\DOTNET_PROJECTS\ECom\MyEComApp\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\GIT REPO\DOTNET_PROJECTS\ECom\MyEComApp
+build_property.MSBuildProjectDirectory = C:\Users\iet\Desktop\reopo\DOTNET_PROJECTS\ECom\MyEComApp
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/GIT REPO/DOTNET_PROJECTS/ECom/MyEComApp/Views/Account/Login.cshtml]
+[C:/Users/iet/Desktop/reopo/DOTNET_PROJECTS/ECom/MyEComApp/Views/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/GIT REPO/DOTNET_PROJECTS/ECom/MyEComApp/Views/Account/Register.cshtml]
+[C:/Users/iet/Desktop/reopo/DOTNET_PROJECTS/ECom/MyEComApp/Views/Account/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/GIT REPO/DOTNET_PROJECTS/ECom/MyEComApp/Views/Home/AboutUs.cshtml]
+[C:/Users/iet/Desktop/reopo/DOTNET_PROJECTS/ECom/MyEComApp/Views/Home/AboutUs.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBYm91dFVzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/GIT REPO/DOTNET_PROJECTS/ECom/MyEComApp/Views/Home/Contact.cshtml]
+[C:/Users/iet/Desktop/reopo/DOTNET_PROJECTS/ECom/MyEComApp/Views/Home/Contact.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb250YWN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/GIT REPO/DOTNET_PROJECTS/ECom/MyEComApp/Views/Home/Index.cshtml]
+[C:/Users/iet/Desktop/reopo/DOTNET_PROJECTS/ECom/MyEComApp/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/GIT REPO/DOTNET_PROJECTS/ECom/MyEComApp/Views/Home/ITOP.cshtml]
+[C:/Users/iet/Desktop/reopo/DOTNET_PROJECTS/ECom/MyEComApp/Views/Home/ITOP.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJVE9QLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/GIT REPO/DOTNET_PROJECTS/ECom/MyEComApp/Views/Home/Privacy.cshtml]
+[C:/Users/iet/Desktop/reopo/DOTNET_PROJECTS/ECom/MyEComApp/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/GIT REPO/DOTNET_PROJECTS/ECom/MyEComApp/Views/Products/Details.cshtml]
+[C:/Users/iet/Desktop/reopo/DOTNET_PROJECTS/ECom/MyEComApp/Views/Products/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/GIT REPO/DOTNET_PROJECTS/ECom/MyEComApp/Views/Products/Edit.cshtml]
+[C:/Users/iet/Desktop/reopo/DOTNET_PROJECTS/ECom/MyEComApp/Views/Products/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/GIT REPO/DOTNET_PROJECTS/ECom/MyEComApp/Views/Products/Index.cshtml]
+[C:/Users/iet/Desktop/reopo/DOTNET_PROJECTS/ECom/MyEComApp/Views/Products/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/GIT REPO/DOTNET_PROJECTS/ECom/MyEComApp/Views/Products/Insert.cshtml]
+[C:/Users/iet/Desktop/reopo/DOTNET_PROJECTS/ECom/MyEComApp/Views/Products/Insert.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcSW5zZXJ0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/GIT REPO/DOTNET_PROJECTS/ECom/MyEComApp/Views/Shared/Error.cshtml]
+[C:/Users/iet/Desktop/reopo/DOTNET_PROJECTS/ECom/MyEComApp/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/GIT REPO/DOTNET_PROJECTS/ECom/MyEComApp/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/iet/Desktop/reopo/DOTNET_PROJECTS/ECom/MyEComApp/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/GIT REPO/DOTNET_PROJECTS/ECom/MyEComApp/Views/ShoppingCart/Edit.cshtml]
+[C:/Users/iet/Desktop/reopo/DOTNET_PROJECTS/ECom/MyEComApp/Views/ShoppingCart/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hvcHBpbmdDYXJ0XEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/GIT REPO/DOTNET_PROJECTS/ECom/MyEComApp/Views/ShoppingCart/Index.cshtml]
+[C:/Users/iet/Desktop/reopo/DOTNET_PROJECTS/ECom/MyEComApp/Views/ShoppingCart/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hvcHBpbmdDYXJ0XEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/GIT REPO/DOTNET_PROJECTS/ECom/MyEComApp/Views/_ViewImports.cshtml]
+[C:/Users/iet/Desktop/reopo/DOTNET_PROJECTS/ECom/MyEComApp/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/GIT REPO/DOTNET_PROJECTS/ECom/MyEComApp/Views/_ViewStart.cshtml]
+[C:/Users/iet/Desktop/reopo/DOTNET_PROJECTS/ECom/MyEComApp/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/GIT REPO/DOTNET_PROJECTS/ECom/MyEComApp/Views/Shared/_Layout.cshtml]
+[C:/Users/iet/Desktop/reopo/DOTNET_PROJECTS/ECom/MyEComApp/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-jlzcfiimed

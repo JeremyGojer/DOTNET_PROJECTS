@@ -19,7 +19,7 @@ public class AccountController : Controller{
         string userid = userServices.Authenticate(email,password);
         if(userid != ""){
             HttpContext.Session.SetString("Current_User",userid);
-            return RedirectToAction("Index", "Products");
+            return RedirectToAction("Index", "Home");
         }
         return View();
     }

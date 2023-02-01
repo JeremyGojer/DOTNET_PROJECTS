@@ -9,6 +9,9 @@ public class ProductServices:IProductServices{
     public List<Product> GetAllProducts(){
         return productManager.GetAll();
     }
+    public List<Product> GetAllProducts(int id){
+        return productManager.GetAll(id);
+    }
 
     public bool AddProduct(Product product){
         return productManager.AddProduct(product);
