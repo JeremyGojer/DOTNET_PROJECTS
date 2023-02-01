@@ -85,3 +85,12 @@ Console.WriteLine("Hello, World!");
 //     Console.WriteLine(product);
 // } 
 ///////////////////////////////////////////////////////////////////
+// POPULATE THE FILE FOR CATEGORIES AND ROLES  //
+///////////////////////////////////////////////////////////////////
+// CategoryIOManager categoryIOManager = new CategoryIOManager();
+// List<Category> categories = categoryIOManager.GetAll();
+// foreach(Category cat in categories){
+//     Console.WriteLine(cat.Title);
+//     categoryIOManager.AddCategory(cat);
+// }
+///////////////////////////////////////////////////////////////////

@@ -10,6 +10,10 @@ public class CartServices{
         return cartManager.GetAll();
     }
 
+    public List<Cart> GetAllCarts(int userid){
+        return cartManager.GetAll(userid);
+    }
+
     public bool AddToCart(Cart cart){
         return cartManager.AddToCart(cart);
     }

@@ -22,12 +22,6 @@ C:\Users\iet\Desktop\reopo\DOTNET_PROJECTS\ECom\TestApp\obj\Debug\net7.0\refint\
 C:\Users\iet\Desktop\reopo\DOTNET_PROJECTS\ECom\TestApp\obj\Debug\net7.0\TestApp.pdb
 C:\Users\iet\Desktop\reopo\DOTNET_PROJECTS\ECom\TestApp\obj\Debug\net7.0\TestApp.genruntimeconfig.cache
 C:\Users\iet\Desktop\reopo\DOTNET_PROJECTS\ECom\TestApp\obj\Debug\net7.0\ref\TestApp.dll
-D:\GIT REPO\DOTNET_PROJECTS\ECom\TestApp\bin\Debug\net7.0\appsettings.Development.json
-D:\GIT REPO\DOTNET_PROJECTS\ECom\TestApp\bin\Debug\net7.0\appsettings.json
-D:\GIT REPO\DOTNET_PROJECTS\ECom\TestApp\bin\Debug\net7.0\TFLStore.deps.json
-D:\GIT REPO\DOTNET_PROJECTS\ECom\TestApp\bin\Debug\net7.0\TFLStore.runtimeconfig.json
-D:\GIT REPO\DOTNET_PROJECTS\ECom\TestApp\bin\Debug\net7.0\TFLStore.staticwebassets.runtime.json
-D:\GIT REPO\DOTNET_PROJECTS\ECom\TestApp\bin\Debug\net7.0\TFLStore.exe
 D:\GIT REPO\DOTNET_PROJECTS\ECom\TestApp\bin\Debug\net7.0\TestApp.exe
 D:\GIT REPO\DOTNET_PROJECTS\ECom\TestApp\bin\Debug\net7.0\TestApp.deps.json
 D:\GIT REPO\DOTNET_PROJECTS\ECom\TestApp\bin\Debug\net7.0\TestApp.runtimeconfig.json
@@ -37,12 +31,10 @@ D:\GIT REPO\DOTNET_PROJECTS\ECom\TestApp\bin\Debug\net7.0\BLL.dll
 D:\GIT REPO\DOTNET_PROJECTS\ECom\TestApp\bin\Debug\net7.0\BOL.dll
 D:\GIT REPO\DOTNET_PROJECTS\ECom\TestApp\bin\Debug\net7.0\DAL.dll
 D:\GIT REPO\DOTNET_PROJECTS\ECom\TestApp\bin\Debug\net7.0\SAL.dll
-D:\GIT REPO\DOTNET_PROJECTS\ECom\TestApp\bin\Debug\net7.0\TFLStore.dll
 D:\GIT REPO\DOTNET_PROJECTS\ECom\TestApp\bin\Debug\net7.0\DAL.pdb
 D:\GIT REPO\DOTNET_PROJECTS\ECom\TestApp\bin\Debug\net7.0\BOL.pdb
 D:\GIT REPO\DOTNET_PROJECTS\ECom\TestApp\bin\Debug\net7.0\SAL.pdb
 D:\GIT REPO\DOTNET_PROJECTS\ECom\TestApp\bin\Debug\net7.0\BLL.pdb
-D:\GIT REPO\DOTNET_PROJECTS\ECom\TestApp\bin\Debug\net7.0\TFLStore.pdb
 D:\GIT REPO\DOTNET_PROJECTS\ECom\TestApp\obj\Debug\net7.0\TestApp.csproj.AssemblyReference.cache
 D:\GIT REPO\DOTNET_PROJECTS\ECom\TestApp\obj\Debug\net7.0\TestApp.GeneratedMSBuildEditorConfig.editorconfig
 D:\GIT REPO\DOTNET_PROJECTS\ECom\TestApp\obj\Debug\net7.0\TestApp.AssemblyInfoInputs.cache
@@ -172,3 +164,12 @@ C:\Users\iet\Desktop\reopo\DOTNET_PROJECTS\ECom\TestApp\bin\Debug\net7.0\runtime
 C:\Users\iet\Desktop\reopo\DOTNET_PROJECTS\ECom\TestApp\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
 C:\Users\iet\Desktop\reopo\DOTNET_PROJECTS\ECom\TestApp\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\iet\Desktop\reopo\DOTNET_PROJECTS\ECom\TestApp\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\GIT REPO\DOTNET_PROJECTS\ECom\TestApp\bin\Debug\net7.0\Microsoft.Extensions.Caching.Abstractions.dll
+D:\GIT REPO\DOTNET_PROJECTS\ECom\TestApp\bin\Debug\net7.0\Microsoft.Extensions.Caching.Memory.dll
+D:\GIT REPO\DOTNET_PROJECTS\ECom\TestApp\bin\Debug\net7.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\GIT REPO\DOTNET_PROJECTS\ECom\TestApp\bin\Debug\net7.0\Microsoft.Extensions.DependencyInjection.dll
+D:\GIT REPO\DOTNET_PROJECTS\ECom\TestApp\bin\Debug\net7.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\GIT REPO\DOTNET_PROJECTS\ECom\TestApp\bin\Debug\net7.0\Microsoft.Extensions.Logging.dll
+D:\GIT REPO\DOTNET_PROJECTS\ECom\TestApp\bin\Debug\net7.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\GIT REPO\DOTNET_PROJECTS\ECom\TestApp\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+D:\GIT REPO\DOTNET_PROJECTS\ECom\TestApp\bin\Debug\net7.0\Microsoft.Extensions.Primitives.dll

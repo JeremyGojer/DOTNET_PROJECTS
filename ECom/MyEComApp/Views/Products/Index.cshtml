@@ -12,14 +12,13 @@ var products = productServices.GetAllProducts(); *@
 
     </div>
     <hr />
-    <h3><a href="/ShoppingCart">To Cart</a></h3>
     <table border='2' class="table table-striped">
         <tr>
-            <th></th>
-            <th><a href="/Products/SortByName">Sort by Name</a></th>
-            <th></th>
-            <th><a href="/Products/SortByPrice">Sort by Price</a></th>
-            <th>Changes</th>
+            <th>Image</th>
+            <th>Name</th>
+            <th>Google</th>
+            <th>Unit Price</th>
+            <th>EDIT | DELETE</th>
         </tr>
         @foreach (var product in products)
         {
@@ -30,7 +29,7 @@ var products = productServices.GetAllProducts(); *@
                     </td>
                     <td>@product.UnitPrice</td>
                     
-                    <td><a href="/Products/Edit/@product.Id">EDIT</a>/<a href="/Products/Delete/@product.Id">DELETE</a></td>
+                    <td><a href="/Products/Edit/@product.Id">EDIT</a> | <a href="/Products/Delete/@product.Id">DELETE</a></td>
             </tr>
         }
     </table>

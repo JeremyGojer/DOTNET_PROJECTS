@@ -40,11 +40,16 @@ public class ProductsController : Controller
 
     [HttpPost]
     public IActionResult AddToCart(int productId, int quantity,double unitPrice){
-        cartServices.AddToCart(new Cart(){UserId=1,
-                                          ProductId=productId,
-                                          Quantity=quantity,
-                                          UnitPrice=unitPrice});
+        // If user is logged in then only allow to add items to cart
+        string current_userid = HttpContext.Session.GetString("Current_User");
+        if(current_userid != null){
+            cartServices.AddToCart(new Cart(){UserId=int.Parse(current_userid),
+                                              ProductId=productId,
+                                              Quantity=quantity,
+                                              UnitPrice=unitPrice});
         return RedirectToAction("Index", "Products");
+        }
+        return RedirectToAction("Login","Account");
     }
 
     [HttpPost]

@@ -20,9 +20,14 @@ public class ShoppingCartController : Controller
     [HttpGet]
     public IActionResult Index()
     {
-        List<Cart> cart = cartServices.GetAllCarts();
+        // If user is logged in, then allow access to cart
+        string current_userid = HttpContext.Session.GetString("Current_User");
+        if(current_userid != null){
+        List<Cart> cart = cartServices.GetAllCarts(int.Parse(current_userid));
         this.ViewData["cart"] = cart;
         return View();
+        }
+        return RedirectToAction("Login","Account");
     }
     public IActionResult Delete(int id){
         cartServices.RemoveFromCart(cartServices.GetCartById(id));
@@ -30,8 +35,9 @@ public class ShoppingCartController : Controller
     }
 
     public IActionResult Edit(int id){
+        string current_userid = HttpContext.Session.GetString("Current_User");
         var cartitem = cartServices.GetCartById(id);
-        List<Cart> cart = cartServices.GetAllCarts();
+        List<Cart> cart = cartServices.GetAllCarts(int.Parse(current_userid));
         this.ViewData["cart"] = cart;
         this.ViewData["cartitem"] = cartitem;
         return View();

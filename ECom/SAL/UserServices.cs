@@ -20,13 +20,15 @@ public class UserServices{
         return "";
     }
 
-    public bool Register(string firstName,string lastName,string email,string password,string contactNumber){
+    public bool Register(string firstName,string lastName,string email,string password,string contactNumber, int roleid){
         foreach(var user in userList){
             if(user.Email == email){
                 return false;
             }
         }
-        customerManager.AddCustomer(new Customer(firstName,lastName,email,password,contactNumber));
+        Customer customer = new Customer(firstName,lastName,email,password,contactNumber);
+        customer.RoleId = roleid;
+        customerManager.AddCustomer(customer);
         Console.WriteLine("Added New User");
         //userList.Add(new Customer(firstName,lastName,email,password,contactNumber));
         

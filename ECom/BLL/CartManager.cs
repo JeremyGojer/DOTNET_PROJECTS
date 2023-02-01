@@ -11,6 +11,10 @@ public class CartManager{
         var carts = from cart in dBEntityContext.Carts select cart;
         return carts.ToList<Cart>();
     }
+    public List<Cart> GetAll(int userid){
+        var carts = from cart in dBEntityContext.Carts where (cart.UserId == userid) select cart;
+        return carts.ToList<Cart>();
+    }
 
     public bool AddToCart(Cart cart){
         bool status = false;

@@ -31,8 +31,8 @@ public class AccountController : Controller{
         return View();
     }
     [HttpPost]
-    public IActionResult Register(string firstName,string lastName,string email,string password,string contactNumber){
-        bool status = userServices.Register(firstName,lastName,email,password,contactNumber);
+    public IActionResult Register(string firstName,string lastName,string email,string password,string contactNumber, int roleid){
+        bool status = userServices.Register(firstName,lastName,email,password,contactNumber,roleid);
         if(status){
             return RedirectToAction("Login", "Account");
         }
