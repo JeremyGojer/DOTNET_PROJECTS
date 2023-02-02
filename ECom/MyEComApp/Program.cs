@@ -11,6 +11,8 @@ builder.Services.AddSession(options=>{options.IdleTimeout=TimeSpan.FromMinutes(1
                                       options.Cookie.IsEssential=true;});
 //////////////////////////////////////////////////////////////////////////////////////
 
+//////////////////////////////////////////////////////////////////////////////
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

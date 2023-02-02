@@ -18,3 +18,5 @@ CREATE TABLE carts(id int NOT NULL AUTO_INCREMENT, userid int, productid int, qu
 
 DROP TABLE IF EXISTS users;
 CREATE TABLE users(id int NOT NULL AUTO_INCREMENT, firstname varchar(50), lastname varchar(50), email varchar(100), password varchar(50), contactnumber varchar(20), roleid int FOREIGN KEY(roleid) REFERENCES roles(id));
+INSERT INTO users(firstname,lastname,email,password,contactnumber,roleid) values("Jeremy","Gojer","gojerjeremy@gmail.com","Jeremy","7019294131",1);
+INSERT INTO users(firstname,lastname,email,password,contactnumber,roleid) values("Saleel","Bagde","saleel.songs@gmail.com","saleel","2222222222",2);

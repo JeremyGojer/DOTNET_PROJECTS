@@ -173,3 +173,10 @@ D:\GIT REPO\DOTNET_PROJECTS\ECom\TestApp\bin\Debug\net7.0\Microsoft.Extensions.L
 D:\GIT REPO\DOTNET_PROJECTS\ECom\TestApp\bin\Debug\net7.0\Microsoft.Extensions.Logging.Abstractions.dll
 D:\GIT REPO\DOTNET_PROJECTS\ECom\TestApp\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
 D:\GIT REPO\DOTNET_PROJECTS\ECom\TestApp\bin\Debug\net7.0\Microsoft.Extensions.Primitives.dll
+C:\Users\iet\Desktop\reopo\DOTNET_PROJECTS\ECom\TestApp\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\iet\Desktop\reopo\DOTNET_PROJECTS\ECom\TestApp\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\iet\Desktop\reopo\DOTNET_PROJECTS\ECom\TestApp\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\iet\Desktop\reopo\DOTNET_PROJECTS\ECom\TestApp\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\iet\Desktop\reopo\DOTNET_PROJECTS\ECom\TestApp\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Users\iet\Desktop\reopo\DOTNET_PROJECTS\ECom\TestApp\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\iet\Desktop\reopo\DOTNET_PROJECTS\ECom\TestApp\bin\Debug\net7.0\Twilio.dll

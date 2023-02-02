@@ -199,3 +199,10 @@ C:\Users\IET\Desktop\New folder\DOTNET_PROJECTS\ECom\MyEComApp\obj\Debug\net7.0\
 C:\Users\IET\Desktop\New folder\DOTNET_PROJECTS\ECom\MyEComApp\obj\Debug\net7.0\MyEComApp.pdb
 C:\Users\IET\Desktop\New folder\DOTNET_PROJECTS\ECom\MyEComApp\obj\Debug\net7.0\MyEComApp.genruntimeconfig.cache
 C:\Users\IET\Desktop\New folder\DOTNET_PROJECTS\ECom\MyEComApp\obj\Debug\net7.0\ref\MyEComApp.dll
+C:\Users\iet\Desktop\reopo\DOTNET_PROJECTS\ECom\MyEComApp\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\iet\Desktop\reopo\DOTNET_PROJECTS\ECom\MyEComApp\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\iet\Desktop\reopo\DOTNET_PROJECTS\ECom\MyEComApp\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\iet\Desktop\reopo\DOTNET_PROJECTS\ECom\MyEComApp\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\iet\Desktop\reopo\DOTNET_PROJECTS\ECom\MyEComApp\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Users\iet\Desktop\reopo\DOTNET_PROJECTS\ECom\MyEComApp\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\iet\Desktop\reopo\DOTNET_PROJECTS\ECom\MyEComApp\bin\Debug\net7.0\Twilio.dll

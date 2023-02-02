@@ -1,0 +1,13 @@
+
+<div class="form-group">
+    <form action="/Account/VerifyOTP" method="post">
+        <input type="text" id="otp" name="otp" />
+        <button type="submit" class="btn btn-default">Verify OTP</button>
+        @{string msg = ViewData["msg"] as string;}
+    
+      <div class="alert alert-danger alert-dismissible fade show">
+        <strong>@msg</strong>
+      </div>
+    </form>
+    
+</div>
