@@ -50,6 +50,9 @@
                              <a class="nav-link text-dark" asp-area="" asp-controller="ShoppingCart" asp-action="Index">Cart(@current_user.FirstName)</a>
                         </li>
                         <li class="nav-item">
+                             <a class="nav-link text-dark" asp-area="" asp-controller="Orders" asp-action="Index">Orders(@current_user.FirstName)</a>
+                        </li>
+                        <li class="nav-item">
                              <a class="nav-link text-dark" asp-area="" asp-controller="Account" asp-action="LogOut">LogOut(@current_user.FirstName)</a>
                         </li>
                             }
@@ -69,7 +72,7 @@
 
     <footer class="border-top footer text-muted">
         <div class="container">
-            &copy; 2023 - TFLStore - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+            &copy; 2023 - EComApp - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
         </div>
     </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>

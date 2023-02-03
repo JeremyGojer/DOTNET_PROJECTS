@@ -8,6 +8,7 @@ public class DBEntityContext:DbContext{
 //Mapping Table with the BOL class
     public DbSet<Product> Products {get;set;}
     public DbSet<Cart> Carts {get;set;}
+    public DbSet<Order> Orders {get;set;}
     //public DbSet<Role> Roles {get;set;}
     //public DbSet<Role> Categories {get;set;}
 

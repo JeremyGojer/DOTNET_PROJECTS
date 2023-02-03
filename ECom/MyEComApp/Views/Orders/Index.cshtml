@@ -1,0 +1,16 @@
+﻿@using BOL
+@{
+    List<Order> orders = ViewData["orders"] as List<Order>;
+}
+<div>
+    This is orders page
+    @foreach (var order in orders)
+    {
+        <table class="table table_striped">
+            <td>@order.ID</td>
+            <td>@order.OrderDate</td>
+        </table>
+    }
+    
+</div>
+
