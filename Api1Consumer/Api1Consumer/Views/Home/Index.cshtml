@@ -1,0 +1,45 @@
+﻿@using ApiApp1.Models;
+@model IEnumerable<Student>
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+<div>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>@Html.DisplayName("id")</th>
+                <th>@Html.DisplayName("namefirst")</th>
+                <th>@Html.DisplayName("namelast")</th>
+                <th>@Html.DisplayName("DOB")</th>
+                <th>@Html.DisplayName("emailID")</th>
+                <th>@Html.DisplayName("Edit")</th>
+                <th>@Html.DisplayName("Delete")</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach(var row in Model)
+            {
+                <tr>
+                    <td>@row.ID</td>
+                    <td>@row.namefirst</td>
+                    <td>@row.namelast</td>
+                    <td>@DateOnly.FromDateTime(row.DOB)</td>
+                    <td>@row.emailID</td>
+                    <td><a href="/EditStudent?id=@row.ID">Edit</a></td>
+                    <td><a href="/DeleteStudent?id=@row.ID">Delete</a></td>
+                </tr>    
+            }
+
+        </tbody>
+
+    </table>
+
+
+    
+</div>

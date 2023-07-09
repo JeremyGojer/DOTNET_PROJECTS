@@ -1,0 +1,30 @@
+﻿@model ApiApp1.Models.Student;
+@{
+}
+
+<div>
+    <form asp-action="AddStudent">
+        <div class="form-group">
+            <label asp-for="ID" class="control-label"></label>
+            <input asp-for="ID" class="form-control" />
+        </div>
+        <div class="form-group">
+            <label asp-for="namefirst" class="control-label"></label>
+            <input asp-for="namefirst" class="form-control" />
+        </div>
+        <div class="form-group">
+            <label asp-for="namelast" class="control-label"></label>
+            <input asp-for="namelast" class="form-control" />
+        </div>
+        <div class="form-group">
+            <label asp-for="DOB" class="control-label"></label>
+            <input asp-for="DOB" class="form-control" />
+        </div>
+        <div class="form-group">
+            <label asp-for="emailID" class="control-label"></label>
+            <input asp-for="emailID" class="form-control" />
+        </div>
+        
+        <button type="submit" class="btn btn-dark">Add Student</button>
+    </form>
+</div>
