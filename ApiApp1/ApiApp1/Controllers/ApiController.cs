@@ -16,7 +16,7 @@ namespace ApiApp1.Controllers
             this.studentService = studentService;
         }
 
-        // GET: ApiController
+        // GET: Students/
         [HttpGet("Students")]
         public JsonResult Index()
         {
@@ -24,7 +24,7 @@ namespace ApiApp1.Controllers
             return new JsonResult(list);
         }
 
-        // GET: ApiController/Details/5
+        // GET: Students/5
         [HttpGet("Students/{id}")]
         public JsonResult Details(int id)
         {
@@ -33,7 +33,7 @@ namespace ApiApp1.Controllers
         }
 
 
-        // POST: ApiController/Create
+        // POST: Students/2
         [HttpPost("Students/{id}")]
         public JsonResult Create([FromBody] Student student)
         {
@@ -41,7 +41,7 @@ namespace ApiApp1.Controllers
             return new JsonResult(s);
         }
 
-        //PUT : ApiController/Edit
+        //PUT : Students/3
 
         [HttpPut("Students/{id}")]
         public JsonResult Edit([FromBody] Student student, int id) {
@@ -50,11 +50,10 @@ namespace ApiApp1.Controllers
             return new JsonResult(s);
         }
 
-        //DELETE: ApiController/Delete
+        //DELETE: Students/4
         [HttpDelete("Students/{id}")]
         public JsonResult Delete(int id)
         {
-            Console.WriteLine(id);
             Student s = studentService.deleteStudent(id);
             return new JsonResult(s);
         }
