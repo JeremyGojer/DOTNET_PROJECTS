@@ -89,6 +89,7 @@ namespace Api1Consumer.Controllers
                     }
                     else { 
                         Console.WriteLine("Error");
+                        return RedirectToAction("Index");
                     }
                 };
             }
@@ -143,6 +144,7 @@ namespace Api1Consumer.Controllers
                     else
                     {
                         Console.WriteLine("Error");
+                        return RedirectToAction("Index");
                     }
                 };
             }
